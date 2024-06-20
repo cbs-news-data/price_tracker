@@ -62,6 +62,13 @@ prices_pivot <- prices %>% filter(period=="M05") %>% pivot_wider(names_from = it
 prices_pivot2 <- prices %>% filter(period=="M05") %>% select(-latest,-period,-periodName) %>% pivot_wider(names_from = year, values_from = value)
 # Reorder the columns so that columns 2-6 are in proper order, sorted by number
 prices_pivot2 <- prices_pivot2 %>% select(1,7,6,5,4,3,2)
+# Change columns 2-7 to numeric
+prices_pivot2[,2:7] <- sapply(prices_pivot2[,2:7], as.numeric)
+# Add column for percentage increase between 2019 and 2024
+prices_pivot2 <- prices_pivot2 %>% mutate(percent_increase = ((`2024` - `2019`)/`2019`)*100)
+# Round percentage increase to 0 decimal places
+prices_pivot2$percent_increase <- round(prices_pivot2$percent_increase, 0)
+
 
 
 # export prices as csv
