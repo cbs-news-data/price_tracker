@@ -26,7 +26,7 @@ payload <- list(
                   'APU0000702421', # cookies
                   'APU000074714', # gasoline reg unleaded
                   'APU0000712112', # potatoes
-                  'APU0000716141', # peanut butter
+                  'APU0000717311', # coffee
                   'APU000072620', # gas utility
                   'APU0000FN1101', # 2 liter soft drink
                   'APU0000710212', # pound cheddar cheese
@@ -46,7 +46,7 @@ prices_7 <- json[["Results"]][["series"]][["data"]][[7]] %>% select(-6) %>% muta
 prices_8 <- json[["Results"]][["series"]][["data"]][[8]] %>% select(-6) %>% mutate(item = "Cookies")
 prices_9 <- json[["Results"]][["series"]][["data"]][[9]] %>% select(-6) %>% mutate(item = "Gasoline (gallon)")
 prices_10 <- json[["Results"]][["series"]][["data"]][[10]] %>% select(-6) %>% mutate(item = "Potatoes (pound)")
-prices_11 <- json[["Results"]][["series"]][["data"]][[11]] %>% select(-6) %>% mutate(item = "Peanut Butter (pound)")
+prices_11 <- json[["Results"]][["series"]][["data"]][[11]] %>% select(-6) %>% mutate(item = "Coffee (pound)")
 prices_12 <- json[["Results"]][["series"]][["data"]][[12]] %>% select(-6) %>% mutate(item = "Utility gas")
 prices_13 <- json[["Results"]][["series"]][["data"]][[13]] %>% select(-6) %>% mutate(item = "2-liter soft drink")
 prices_14 <- json[["Results"]][["series"]][["data"]][[14]] %>% select(-6) %>% mutate(item = "Cheddar Cheese (pound)")
@@ -56,12 +56,18 @@ prices_15 <- json[["Results"]][["series"]][["data"]][[15]] %>% select(-6) %>% mu
 prices <- rbind(prices_1, prices_2, prices_3, prices_4, prices_5, prices_6, prices_7, prices_8, prices_9, prices_10, prices_11, prices_12, prices_13, prices_14, prices_15)
 
 # pivot the table with dates on the rows and items in the columns
-prices_pivot <- prices %>% filter(period=="M04") %>% pivot_wider(names_from = item, values_from = value)
+prices_pivot <- prices %>% filter(period=="M05") %>% pivot_wider(names_from = item, values_from = value)
+
+# pivot the table items in rows the dates in columns
+prices_pivot2 <- prices %>% filter(period=="M05") %>% select(-latest,-period,-periodName) %>% pivot_wider(names_from = year, values_from = value)
+# Reorder the columns so that columns 2-6 are in proper order, sorted by number
+prices_pivot2 <- prices_pivot2 %>% select(1,7,6,5,4,3,2)
 
 
 # export prices as csv
 write_csv(prices, "data/prices.csv")
 write_csv(prices_pivot, "data/prices_pivot.csv")
+write_csv(prices_pivot2, "data/prices_pivot_table.csv")
 
 
 
