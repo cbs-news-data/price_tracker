@@ -1,5 +1,5 @@
 ---
-title: "CBS News Price Tracker"
+title: ""
 # author: "John Kelly"
 # date: Sys.time()
 output:
@@ -13,10 +13,6 @@ library(tidyverse)
 library(htmlwidgets)
 library(htmltools)
 ```
-<br>
-<br>
-CBS News is tracking the change in prices of a range of typical expenses for U.S. families, drawing from a variety of government and private data sources. In the case of recurring household costs, rents and mortgages, the data is through the most recent month and compared to the same month in 2019.
-<br>
 <br>
 <br>
 <!-- <subhead>line charts for household items costs</subhead> -->
