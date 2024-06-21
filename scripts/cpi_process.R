@@ -29,7 +29,10 @@ payload <- list(
                   'APU000072620', # gas utility
                   'APU0000FN1101', # 2 liter soft drink
                   'APU0000710212', # pound cheddar cheese
-                  'APU000072610'), # electricity
+                  'APU000072610', # electricity
+                  'APU0000713111', # frozen orange juice
+                  'APU0000710122', # yogurt
+                  'APU0000712311'), # tomatoes
   'startyear' = 2019,
   'endyear'   = 2024)
 response <- blsAPI(payload, 2)
@@ -50,9 +53,13 @@ prices_12 <- json[["Results"]][["series"]][["data"]][[12]] %>% select(-6) %>% mu
 prices_13 <- json[["Results"]][["series"]][["data"]][[13]] %>% select(-6) %>% mutate(item = "2-liter soft drink")
 prices_14 <- json[["Results"]][["series"]][["data"]][[14]] %>% select(-6) %>% mutate(item = "Cheddar Cheese (pound)")
 prices_15 <- json[["Results"]][["series"]][["data"]][[15]] %>% select(-6) %>% mutate(item = "Electricity (kilowatt hour)")
+prices_16 <- json[["Results"]][["series"]][["data"]][[16]] %>% select(-6) %>% mutate(item = "Frozen orange juice")
+prices_17 <- json[["Results"]][["series"]][["data"]][[17]] %>% select(-6) %>% mutate(item = "Yogurt (8 ounces)")
+prices_18 <- json[["Results"]][["series"]][["data"]][[18]] %>% select(-6) %>% mutate(item = "Tomatoes (pound)")
+
 
 # combine this series of prices into one table
-prices <- rbind(prices_1, prices_2, prices_3, prices_4, prices_5, prices_6, prices_7, prices_8, prices_9, prices_10, prices_11, prices_12, prices_13, prices_14, prices_15)
+prices <- rbind(prices_1, prices_2, prices_3, prices_4, prices_5, prices_6, prices_7, prices_8, prices_9, prices_10, prices_11, prices_12, prices_13, prices_14, prices_15, prices_16, prices_17, prices_18)
 
 # pivot the table with dates on the rows and items in the columns
 prices_pivot <- prices %>% filter(period=="M05") %>% pivot_wider(names_from = item, values_from = value)
