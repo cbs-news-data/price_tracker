@@ -31,7 +31,7 @@ payload <- list(
                   'APU0000710212', # pound cheddar cheese
                   'APU000072610', # electricity
                   'APU0000713111', # frozen orange juice
-                  'APU0000710122', # yogurt
+                  'APU0000FJ4101', # yogurt
                   'APU0000712311'), # tomatoes
   'startyear' = 2019,
   'endyear'   = 2024)
@@ -76,12 +76,10 @@ prices_pivot2 <- prices_pivot2 %>% mutate(percent_increase = ((`2024` - `2019`)/
 prices_pivot2$percent_increase <- round(prices_pivot2$percent_increase, 0)
 
 
-
 # export prices as csv
 write_csv(prices, "data/prices.csv")
 write_csv(prices_pivot, "data/prices_pivot.csv")
 write_csv(prices_pivot2, "data/prices_pivot_table.csv")
-
 
 
 # Note 
@@ -95,5 +93,4 @@ write_csv(prices_pivot2, "data/prices_pivot_table.csv")
 #url_current <- "https://download.bls.gov/pub/time.series/ap/ap.data.0.Current"
 #url_item <- "https://download.bls.gov/pub/time.series/ap/ap.item"
 #url_period <- "https://download.bls.gov/pub/time.series/ap/ap.period"
-
 
