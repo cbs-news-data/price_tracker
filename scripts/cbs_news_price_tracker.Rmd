@@ -2,7 +2,9 @@
 title: "CBS News Price Tracker"
 # author: "John Kelly"
 # date: Sys.time()
-output: html_document
+output:
+  html_document:
+    output_dir: "docs"
 ---
 
 ```{r setup, include=FALSE}
@@ -23,7 +25,7 @@ CBS News is tracking the change in prices of a range of typical expenses for U.S
 <br>
 <br>
 <!-- <subhead> lookup of items </subhead> -->
-<div style="min-height:858px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/YK0KE/embed.js?v=3" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/YK0KE/full.png" alt="" /></noscript></div>
+<div style="min-height:858px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/YK0KE/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/YK0KE/full.png" alt="" /></noscript></div>
 <br>
 <br>
 <br>
