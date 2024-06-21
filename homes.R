@@ -106,6 +106,10 @@ homes_metro_5yrs <- homes_metro_5yrs %>% select(1,3,8,10) %>% filter(!is.na(`201
 #homes_city_5yrs <- homes_city_5yrs %>%
 #  head(200)
 
+# set column name for first column as city
+colnames(homes_metro_5yrs)[1] <- "City"
+
+
 # output CSV of rent for tables
 write_csv(homes_metro_5yrs, "data/homes_metro_5yrs.csv")
 #write_csv(homes_county_5yrs, "data/homes_county_5yrs.csv")
