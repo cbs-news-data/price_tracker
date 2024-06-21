@@ -31,7 +31,7 @@ library(htmltools)
 <br>
 <br>
 <!-- <subhead> home prices </subhead> -->
-<div style="min-height:3848px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/RPaJt/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/RPaJt/full.png" alt="" /></noscript></div>
+<div style="min-height:3848px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/RPaJt/embed.js?v=6" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/RPaJt/full.png" alt="" /></noscript></div>
 <br>
 <br>
 <br>
