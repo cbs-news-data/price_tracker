@@ -10,9 +10,8 @@ library(jsonlite)
 # Load bls series data from data folder
 series <- read_tsv("data/ap.series.txt")
 
-# Your API key is: 3309567024fa47bca0255b8a42a122f7.
-
-key <- "3309567024fa47bca0255b8a42a122f7"
+# Access the API key from an environment variable
+key <- Sys.getenv("BLS_API_KEY")
 
 ## Pull the data via the API
 payload <- list(
