@@ -21,7 +21,7 @@ library(htmltools)
 <br>
 <br>
 <!-- <subhead> lookup of items </subhead> -->
-<div style="min-height:858px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/YK0KE/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/YK0KE/full.png" alt="" /></noscript></div>
+<div style="min-height:858px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/YK0KE/embed.js?v=6" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/YK0KE/full.png" alt="" /></noscript></div>
 <br>
 <br>
 <br>
