@@ -46,10 +46,42 @@ prices <- bind_rows(prices_list)
 # pivot the table with dates on the rows and items in the columns
 prices_pivot <- prices %>% filter(period==prices$period[1]) %>% pivot_wider(names_from = item, values_from = value)
 
+# Fix coffee price problem 
+# Step 1: Find the closest available 2019 M10 value for "Coffee (pound)" from the `prices` table
+coffee_2019_M10_value <- prices$value[which(prices$item == "Coffee (pound)" & prices$year == "2019" & prices$period == "M10")]
+
+# Ensure there's only one value to avoid potential issues
+if(length(coffee_2019_M10_value) == 1) {
+  # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
+  rows_to_update <- which(prices_pivot$year == "2019" & is.na(prices_pivot$`Coffee (pound)`))
+  
+  # Step 3: Update those rows with the 2019 M10 value for "Coffee (pound)"
+  if(length(rows_to_update) > 0) { # Check if there are any rows to update
+    prices_pivot$`Coffee (pound)`[rows_to_update] <- coffee_2019_M10_value
+  }
+} else {
+  warning("Multiple or no values found for Coffee (pound) for 2019 M10. No updates made.")
+}
+
 # pivot the table items in rows the dates in columns
 prices_pivot2 <- prices %>% filter(period==prices$period[1]) %>% select(-latest,-period,-periodName) %>% pivot_wider(names_from = year, values_from = value)
 # Reorder the columns so that columns 2-6 are in proper order, sorted by number
 prices_pivot2 <- prices_pivot2 %>% select(1,7,6,5,4,3,2)
+
+# Ensure there's only one value to avoid potential issues
+if(length(coffee_2019_M10_value) == 1) {
+  # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
+  rows_to_update <- which(prices_pivot2$item == "Coffee (pound)" & is.na(prices_pivot2$`2019`))
+  
+  # Step 3: Update those rows with the 2019 M10 value for "Coffee (pound)"
+  if(length(rows_to_update) > 0) { # Check if there are any rows to update
+    prices_pivot2$`2019`[rows_to_update] <- coffee_2019_M10_value
+  }
+} else {
+  warning("Multiple or no values found for Coffee (pound) for 2019 M10. No updates made.")
+}
+
+
 # Change columns 2-7 to numeric
 prices_pivot2[,2:7] <- sapply(prices_pivot2[,2:7], as.numeric)
 # Add column for percentage increase between 2019 and 2024
