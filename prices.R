@@ -3,7 +3,7 @@ library(blsAPI)
 library(jsonlite)
 
 # Load bls series data from data folder
-series <- read_tsv("data/ap.series.txt")
+series <- read_tsv("data/ap.series.txt") %>% filter(begin_year < 2019 & end_year > 2023) %>% filter(area_code == "0000" )
 
 # Access the API key from an environment variable
 key <- Sys.getenv("BLS_API_KEY")
@@ -12,12 +12,13 @@ key <- Sys.getenv("BLS_API_KEY")
 series_ids <- c('APU0000709112', 'APU0000704111', 'APU0000711211', 'APU0000703112', 'APU0000FF1101', 
                 'APU0000702111', 'APU0000708111', 'APU0000702421', 'APU000074714', 'APU0000712112', 
                 'APU0000717311', 'APU000072620', 'APU0000FN1101', 'APU0000710212', 'APU000072610', 
-                'APU0000713111', 'APU0000FJ4101', 'APU0000712311')
+                'APU0000713111', 'APU0000FJ4101', 'APU0000712311','APU0000720311','APU0000711415',
+                'APU0000701312')
 item_names <- c("Milk (half gallon)", "Bacon (pound)", "Bananas (pound)", "Ground Beef (pound)", 
-                "Chicken Breast (pound)", "Loaf of Bread", "Dozen eggs", "Cookies", "Gasoline (gallon)", 
+                "Chicken Breast (pound)", "Loaf of Bread", "Dozen eggs", "Cookies", "Regular Unleaded Gasoline (gallon)", 
                 "Potatoes (pound)", "Coffee (pound)", "Utility gas", "2-liter soft drink", 
                 "Cheddar Cheese (pound)", "Electricity (kilowatt hour)", "Frozen orange juice", 
-                "Yogurt (8 ounces)", "Tomatoes (pound)")
+                "Yogurt (8 ounces)", "Tomatoes (pound)", "Table Wine", "Strawberries (pint)", "Rice (pound)")
 
 # Pull the data via the API
 payload <- list(

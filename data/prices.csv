@@ -519,71 +519,71 @@ year,period,periodName,latest,value,item
 2019,M03,March,NA,3.311,Cookies
 2019,M02,February,NA,3.516,Cookies
 2019,M01,January,NA,3.466,Cookies
-2024,M05,May,true,3.755,Gasoline (gallon)
-2024,M04,April,NA,3.776,Gasoline (gallon)
-2024,M03,March,NA,3.581,Gasoline (gallon)
-2024,M02,February,NA,3.359,Gasoline (gallon)
-2024,M01,January,NA,3.221,Gasoline (gallon)
-2023,M12,December,NA,3.289,Gasoline (gallon)
-2023,M11,November,NA,3.500,Gasoline (gallon)
-2023,M10,October,NA,3.782,Gasoline (gallon)
-2023,M09,September,NA,3.988,Gasoline (gallon)
-2023,M08,August,NA,3.955,Gasoline (gallon)
-2023,M07,July,NA,3.732,Gasoline (gallon)
-2023,M06,June,NA,3.712,Gasoline (gallon)
-2023,M05,May,NA,3.685,Gasoline (gallon)
-2023,M04,April,NA,3.735,Gasoline (gallon)
-2023,M03,March,NA,3.551,Gasoline (gallon)
-2023,M02,February,NA,3.514,Gasoline (gallon)
-2023,M01,January,NA,3.452,Gasoline (gallon)
-2022,M12,December,NA,3.356,Gasoline (gallon)
-2022,M11,November,NA,3.853,Gasoline (gallon)
-2022,M10,October,NA,4.016,Gasoline (gallon)
-2022,M09,September,NA,3.881,Gasoline (gallon)
-2022,M08,August,NA,4.101,Gasoline (gallon)
-2022,M07,July,NA,4.667,Gasoline (gallon)
-2022,M06,June,NA,5.058,Gasoline (gallon)
-2022,M05,May,NA,4.604,Gasoline (gallon)
-2022,M04,April,NA,4.271,Gasoline (gallon)
-2022,M03,March,NA,4.312,Gasoline (gallon)
-2022,M02,February,NA,3.592,Gasoline (gallon)
-2022,M01,January,NA,3.413,Gasoline (gallon)
-2021,M12,December,NA,3.408,Gasoline (gallon)
-2021,M11,November,NA,3.482,Gasoline (gallon)
-2021,M10,October,NA,3.385,Gasoline (gallon)
-2021,M09,September,NA,3.265,Gasoline (gallon)
-2021,M08,August,NA,3.255,Gasoline (gallon)
-2021,M07,July,NA,3.233,Gasoline (gallon)
-2021,M06,June,NA,3.154,Gasoline (gallon)
-2021,M05,May,NA,2.972,Gasoline (gallon)
-2021,M04,April,NA,2.839,Gasoline (gallon)
-2021,M03,March,NA,2.791,Gasoline (gallon)
-2021,M02,February,NA,2.496,Gasoline (gallon)
-2021,M01,January,NA,2.326,Gasoline (gallon)
-2020,M12,December,NA,2.168,Gasoline (gallon)
-2020,M11,November,NA,2.090,Gasoline (gallon)
-2020,M10,October,NA,2.159,Gasoline (gallon)
-2020,M09,September,NA,2.193,Gasoline (gallon)
-2020,M08,August,NA,2.177,Gasoline (gallon)
-2020,M07,July,NA,2.176,Gasoline (gallon)
-2020,M06,June,NA,2.076,Gasoline (gallon)
-2020,M05,May,NA,1.879,Gasoline (gallon)
-2020,M04,April,NA,1.876,Gasoline (gallon)
-2020,M03,March,NA,2.267,Gasoline (gallon)
-2020,M02,February,NA,2.465,Gasoline (gallon)
-2020,M01,January,NA,2.567,Gasoline (gallon)
-2019,M12,December,NA,2.587,Gasoline (gallon)
-2019,M11,November,NA,2.620,Gasoline (gallon)
-2019,M10,October,NA,2.673,Gasoline (gallon)
-2019,M09,September,NA,2.630,Gasoline (gallon)
-2019,M08,August,NA,2.655,Gasoline (gallon)
-2019,M07,July,NA,2.776,Gasoline (gallon)
-2019,M06,June,NA,2.752,Gasoline (gallon)
-2019,M05,May,NA,2.901,Gasoline (gallon)
-2019,M04,April,NA,2.835,Gasoline (gallon)
-2019,M03,March,NA,2.564,Gasoline (gallon)
-2019,M02,February,NA,2.353,Gasoline (gallon)
-2019,M01,January,NA,2.289,Gasoline (gallon)
+2024,M05,May,true,3.755,Regular Unleaded Gasoline (gallon)
+2024,M04,April,NA,3.776,Regular Unleaded Gasoline (gallon)
+2024,M03,March,NA,3.581,Regular Unleaded Gasoline (gallon)
+2024,M02,February,NA,3.359,Regular Unleaded Gasoline (gallon)
+2024,M01,January,NA,3.221,Regular Unleaded Gasoline (gallon)
+2023,M12,December,NA,3.289,Regular Unleaded Gasoline (gallon)
+2023,M11,November,NA,3.500,Regular Unleaded Gasoline (gallon)
+2023,M10,October,NA,3.782,Regular Unleaded Gasoline (gallon)
+2023,M09,September,NA,3.988,Regular Unleaded Gasoline (gallon)
+2023,M08,August,NA,3.955,Regular Unleaded Gasoline (gallon)
+2023,M07,July,NA,3.732,Regular Unleaded Gasoline (gallon)
+2023,M06,June,NA,3.712,Regular Unleaded Gasoline (gallon)
+2023,M05,May,NA,3.685,Regular Unleaded Gasoline (gallon)
+2023,M04,April,NA,3.735,Regular Unleaded Gasoline (gallon)
+2023,M03,March,NA,3.551,Regular Unleaded Gasoline (gallon)
+2023,M02,February,NA,3.514,Regular Unleaded Gasoline (gallon)
+2023,M01,January,NA,3.452,Regular Unleaded Gasoline (gallon)
+2022,M12,December,NA,3.356,Regular Unleaded Gasoline (gallon)
+2022,M11,November,NA,3.853,Regular Unleaded Gasoline (gallon)
+2022,M10,October,NA,4.016,Regular Unleaded Gasoline (gallon)
+2022,M09,September,NA,3.881,Regular Unleaded Gasoline (gallon)
+2022,M08,August,NA,4.101,Regular Unleaded Gasoline (gallon)
+2022,M07,July,NA,4.667,Regular Unleaded Gasoline (gallon)
+2022,M06,June,NA,5.058,Regular Unleaded Gasoline (gallon)
+2022,M05,May,NA,4.604,Regular Unleaded Gasoline (gallon)
+2022,M04,April,NA,4.271,Regular Unleaded Gasoline (gallon)
+2022,M03,March,NA,4.312,Regular Unleaded Gasoline (gallon)
+2022,M02,February,NA,3.592,Regular Unleaded Gasoline (gallon)
+2022,M01,January,NA,3.413,Regular Unleaded Gasoline (gallon)
+2021,M12,December,NA,3.408,Regular Unleaded Gasoline (gallon)
+2021,M11,November,NA,3.482,Regular Unleaded Gasoline (gallon)
+2021,M10,October,NA,3.385,Regular Unleaded Gasoline (gallon)
+2021,M09,September,NA,3.265,Regular Unleaded Gasoline (gallon)
+2021,M08,August,NA,3.255,Regular Unleaded Gasoline (gallon)
+2021,M07,July,NA,3.233,Regular Unleaded Gasoline (gallon)
+2021,M06,June,NA,3.154,Regular Unleaded Gasoline (gallon)
+2021,M05,May,NA,2.972,Regular Unleaded Gasoline (gallon)
+2021,M04,April,NA,2.839,Regular Unleaded Gasoline (gallon)
+2021,M03,March,NA,2.791,Regular Unleaded Gasoline (gallon)
+2021,M02,February,NA,2.496,Regular Unleaded Gasoline (gallon)
+2021,M01,January,NA,2.326,Regular Unleaded Gasoline (gallon)
+2020,M12,December,NA,2.168,Regular Unleaded Gasoline (gallon)
+2020,M11,November,NA,2.090,Regular Unleaded Gasoline (gallon)
+2020,M10,October,NA,2.159,Regular Unleaded Gasoline (gallon)
+2020,M09,September,NA,2.193,Regular Unleaded Gasoline (gallon)
+2020,M08,August,NA,2.177,Regular Unleaded Gasoline (gallon)
+2020,M07,July,NA,2.176,Regular Unleaded Gasoline (gallon)
+2020,M06,June,NA,2.076,Regular Unleaded Gasoline (gallon)
+2020,M05,May,NA,1.879,Regular Unleaded Gasoline (gallon)
+2020,M04,April,NA,1.876,Regular Unleaded Gasoline (gallon)
+2020,M03,March,NA,2.267,Regular Unleaded Gasoline (gallon)
+2020,M02,February,NA,2.465,Regular Unleaded Gasoline (gallon)
+2020,M01,January,NA,2.567,Regular Unleaded Gasoline (gallon)
+2019,M12,December,NA,2.587,Regular Unleaded Gasoline (gallon)
+2019,M11,November,NA,2.620,Regular Unleaded Gasoline (gallon)
+2019,M10,October,NA,2.673,Regular Unleaded Gasoline (gallon)
+2019,M09,September,NA,2.630,Regular Unleaded Gasoline (gallon)
+2019,M08,August,NA,2.655,Regular Unleaded Gasoline (gallon)
+2019,M07,July,NA,2.776,Regular Unleaded Gasoline (gallon)
+2019,M06,June,NA,2.752,Regular Unleaded Gasoline (gallon)
+2019,M05,May,NA,2.901,Regular Unleaded Gasoline (gallon)
+2019,M04,April,NA,2.835,Regular Unleaded Gasoline (gallon)
+2019,M03,March,NA,2.564,Regular Unleaded Gasoline (gallon)
+2019,M02,February,NA,2.353,Regular Unleaded Gasoline (gallon)
+2019,M01,January,NA,2.289,Regular Unleaded Gasoline (gallon)
 2024,M05,May,true,0.964,Potatoes (pound)
 2024,M04,April,NA,0.971,Potatoes (pound)
 2024,M03,March,NA,0.972,Potatoes (pound)
@@ -1156,3 +1156,195 @@ year,period,periodName,latest,value,item
 2019,M03,March,NA,2.079,Tomatoes (pound)
 2019,M02,February,NA,2.068,Tomatoes (pound)
 2019,M01,January,NA,2.227,Tomatoes (pound)
+2024,M05,May,true,13.861,Table Wine
+2024,M04,April,NA,13.662,Table Wine
+2024,M03,March,NA,13.308,Table Wine
+2024,M02,February,NA,13.391,Table Wine
+2024,M01,January,NA,13.345,Table Wine
+2023,M12,December,NA,13.319,Table Wine
+2023,M11,November,NA,13.327,Table Wine
+2023,M10,October,NA,13.509,Table Wine
+2023,M09,September,NA,13.678,Table Wine
+2023,M08,August,NA,13.629,Table Wine
+2023,M07,July,NA,13.423,Table Wine
+2023,M06,June,NA,13.345,Table Wine
+2023,M05,May,NA,13.406,Table Wine
+2023,M04,April,NA,13.302,Table Wine
+2023,M03,March,NA,13.249,Table Wine
+2023,M02,February,NA,13.213,Table Wine
+2023,M01,January,NA,13.360,Table Wine
+2022,M12,December,NA,13.658,Table Wine
+2022,M11,November,NA,13.701,Table Wine
+2022,M10,October,NA,13.624,Table Wine
+2022,M09,September,NA,13.518,Table Wine
+2022,M08,August,NA,13.422,Table Wine
+2022,M07,July,NA,13.337,Table Wine
+2022,M06,June,NA,13.200,Table Wine
+2022,M05,May,NA,13.308,Table Wine
+2022,M04,April,NA,13.589,Table Wine
+2022,M03,March,NA,13.498,Table Wine
+2022,M02,February,NA,13.488,Table Wine
+2022,M01,January,NA,13.397,Table Wine
+2021,M12,December,NA,13.194,Table Wine
+2021,M11,November,NA,13.348,Table Wine
+2021,M10,October,NA,12.941,Table Wine
+2021,M09,September,NA,13.042,Table Wine
+2021,M08,August,NA,12.926,Table Wine
+2021,M07,July,NA,13.104,Table Wine
+2021,M06,June,NA,13.257,Table Wine
+2021,M05,May,NA,13.519,Table Wine
+2021,M04,April,NA,13.629,Table Wine
+2021,M03,March,NA,13.276,Table Wine
+2021,M02,February,NA,13.115,Table Wine
+2021,M01,January,NA,12.885,Table Wine
+2020,M12,December,NA,12.861,Table Wine
+2020,M11,November,NA,12.784,Table Wine
+2020,M10,October,NA,12.535,Table Wine
+2020,M09,September,NA,12.371,Table Wine
+2020,M08,August,NA,12.409,Table Wine
+2020,M07,July,NA,12.405,Table Wine
+2020,M06,June,NA,12.176,Table Wine
+2020,M05,May,NA,12.547,Table Wine
+2020,M04,April,NA,12.294,Table Wine
+2020,M03,March,NA,12.346,Table Wine
+2020,M02,February,NA,12.233,Table Wine
+2020,M01,January,NA,12.056,Table Wine
+2019,M12,December,NA,12.044,Table Wine
+2019,M11,November,NA,12.203,Table Wine
+2019,M10,October,NA,12.119,Table Wine
+2019,M09,September,NA,12.096,Table Wine
+2019,M08,August,NA,12.148,Table Wine
+2019,M07,July,NA,11.995,Table Wine
+2019,M06,June,NA,11.952,Table Wine
+2019,M05,May,NA,12.048,Table Wine
+2019,M04,April,NA,11.875,Table Wine
+2019,M03,March,NA,11.989,Table Wine
+2019,M02,February,NA,12.196,Table Wine
+2019,M01,January,NA,12.008,Table Wine
+2024,M05,May,true,2.259,Strawberries (pint)
+2024,M04,April,NA,2.520,Strawberries (pint)
+2024,M03,March,NA,2.648,Strawberries (pint)
+2024,M02,February,NA,3.049,Strawberries (pint)
+2024,M01,January,NA,3.658,Strawberries (pint)
+2023,M12,December,NA,3.574,Strawberries (pint)
+2023,M11,November,NA,2.965,Strawberries (pint)
+2023,M10,October,NA,2.617,Strawberries (pint)
+2023,M09,September,NA,2.628,Strawberries (pint)
+2023,M08,August,NA,2.609,Strawberries (pint)
+2023,M07,July,NA,2.421,Strawberries (pint)
+2023,M06,June,NA,2.499,Strawberries (pint)
+2023,M05,May,NA,2.668,Strawberries (pint)
+2023,M04,April,NA,2.894,Strawberries (pint)
+2023,M03,March,NA,2.649,Strawberries (pint)
+2023,M02,February,NA,3.169,Strawberries (pint)
+2023,M01,January,NA,3.467,Strawberries (pint)
+2022,M12,December,NA,3.856,Strawberries (pint)
+2022,M11,November,NA,3.631,Strawberries (pint)
+2022,M10,October,NA,3.108,Strawberries (pint)
+2022,M09,September,NA,2.782,Strawberries (pint)
+2022,M08,August,NA,2.558,Strawberries (pint)
+2022,M07,July,NA,2.208,Strawberries (pint)
+2022,M06,June,NA,2.317,Strawberries (pint)
+2022,M05,May,NA,2.438,Strawberries (pint)
+2022,M04,April,NA,2.777,Strawberries (pint)
+2022,M03,March,NA,2.711,Strawberries (pint)
+2022,M02,February,NA,3.045,Strawberries (pint)
+2022,M01,January,NA,3.106,Strawberries (pint)
+2021,M11,November,NA,3.079,Strawberries (pint)
+2021,M10,October,NA,2.687,Strawberries (pint)
+2021,M09,September,NA,2.454,Strawberries (pint)
+2021,M08,August,NA,2.434,Strawberries (pint)
+2021,M07,July,NA,2.256,Strawberries (pint)
+2021,M06,June,NA,2.318,Strawberries (pint)
+2021,M05,May,NA,2.648,Strawberries (pint)
+2021,M04,April,NA,2.803,Strawberries (pint)
+2021,M03,March,NA,2.700,Strawberries (pint)
+2021,M02,February,NA,2.893,Strawberries (pint)
+2021,M01,January,NA,3.044,Strawberries (pint)
+2020,M12,December,NA,3.290,Strawberries (pint)
+2020,M11,November,NA,2.934,Strawberries (pint)
+2020,M10,October,NA,2.745,Strawberries (pint)
+2020,M09,September,NA,2.234,Strawberries (pint)
+2020,M08,August,NA,2.214,Strawberries (pint)
+2020,M07,July,NA,2.020,Strawberries (pint)
+2020,M06,June,NA,2.020,Strawberries (pint)
+2020,M05,May,NA,2.174,Strawberries (pint)
+2020,M03,March,NA,2.367,Strawberries (pint)
+2020,M02,February,NA,2.558,Strawberries (pint)
+2020,M01,January,NA,2.884,Strawberries (pint)
+2019,M12,December,NA,3.096,Strawberries (pint)
+2019,M11,November,NA,2.604,Strawberries (pint)
+2019,M10,October,NA,2.402,Strawberries (pint)
+2019,M09,September,NA,2.153,Strawberries (pint)
+2019,M08,August,NA,2.010,Strawberries (pint)
+2019,M07,July,NA,2.111,Strawberries (pint)
+2019,M06,June,NA,2.066,Strawberries (pint)
+2019,M05,May,NA,1.972,Strawberries (pint)
+2019,M04,April,NA,2.504,Strawberries (pint)
+2019,M03,March,NA,2.475,Strawberries (pint)
+2019,M02,February,NA,2.872,Strawberries (pint)
+2019,M01,January,NA,3.279,Strawberries (pint)
+2024,M05,May,true,1.002,Rice (pound)
+2024,M04,April,NA,1.025,Rice (pound)
+2024,M03,March,NA,1.014,Rice (pound)
+2024,M02,February,NA,1.001,Rice (pound)
+2024,M01,January,NA,1.000,Rice (pound)
+2023,M12,December,NA,0.990,Rice (pound)
+2023,M11,November,NA,0.992,Rice (pound)
+2023,M10,October,NA,0.960,Rice (pound)
+2023,M09,September,NA,0.981,Rice (pound)
+2023,M08,August,NA,0.997,Rice (pound)
+2023,M07,July,NA,1.006,Rice (pound)
+2023,M06,June,NA,1.003,Rice (pound)
+2023,M05,May,NA,0.997,Rice (pound)
+2023,M04,April,NA,0.980,Rice (pound)
+2023,M03,March,NA,0.982,Rice (pound)
+2023,M02,February,NA,0.959,Rice (pound)
+2023,M01,January,NA,0.970,Rice (pound)
+2022,M12,December,NA,0.971,Rice (pound)
+2022,M11,November,NA,0.963,Rice (pound)
+2022,M10,October,NA,0.963,Rice (pound)
+2022,M09,September,NA,0.939,Rice (pound)
+2022,M08,August,NA,0.925,Rice (pound)
+2022,M07,July,NA,0.929,Rice (pound)
+2022,M06,June,NA,0.924,Rice (pound)
+2022,M05,May,NA,0.909,Rice (pound)
+2022,M04,April,NA,0.900,Rice (pound)
+2022,M03,March,NA,0.871,Rice (pound)
+2022,M02,February,NA,0.830,Rice (pound)
+2022,M01,January,NA,0.832,Rice (pound)
+2021,M12,December,NA,0.820,Rice (pound)
+2021,M11,November,NA,0.844,Rice (pound)
+2021,M10,October,NA,0.788,Rice (pound)
+2021,M09,September,NA,0.798,Rice (pound)
+2021,M08,August,NA,0.784,Rice (pound)
+2021,M07,July,NA,0.782,Rice (pound)
+2021,M06,June,NA,0.778,Rice (pound)
+2021,M05,May,NA,0.801,Rice (pound)
+2021,M04,April,NA,0.785,Rice (pound)
+2021,M03,March,NA,0.772,Rice (pound)
+2021,M02,February,NA,0.779,Rice (pound)
+2021,M01,January,NA,0.794,Rice (pound)
+2020,M12,December,NA,0.789,Rice (pound)
+2020,M11,November,NA,0.791,Rice (pound)
+2020,M10,October,NA,0.766,Rice (pound)
+2020,M09,September,NA,0.777,Rice (pound)
+2020,M08,August,NA,0.769,Rice (pound)
+2020,M07,July,NA,0.772,Rice (pound)
+2020,M06,June,NA,0.749,Rice (pound)
+2020,M05,May,NA,0.748,Rice (pound)
+2020,M03,March,NA,0.733,Rice (pound)
+2020,M02,February,NA,0.734,Rice (pound)
+2020,M01,January,NA,0.716,Rice (pound)
+2019,M12,December,NA,0.714,Rice (pound)
+2019,M11,November,NA,0.721,Rice (pound)
+2019,M10,October,NA,0.773,Rice (pound)
+2019,M09,September,NA,0.797,Rice (pound)
+2019,M08,August,NA,0.793,Rice (pound)
+2019,M07,July,NA,0.798,Rice (pound)
+2019,M06,June,NA,0.801,Rice (pound)
+2019,M05,May,NA,0.761,Rice (pound)
+2019,M04,April,NA,0.767,Rice (pound)
+2019,M03,March,NA,0.757,Rice (pound)
+2019,M02,February,NA,0.762,Rice (pound)
+2019,M01,January,NA,0.730,Rice (pound)
