@@ -68,7 +68,8 @@ prices_pivot2 <- prices %>% filter(period==prices$period[1]) %>% select(-latest,
 # Reorder the columns so that columns 2-6 are in proper order, sorted by number
 prices_pivot2 <- prices_pivot2 %>% select(1,7,6,5,4,3,2)
 
-# Ensure there's only one value to avoid potential issues
+# Fix coffee data in 2nd table
+#Ensure there's only one value to avoid potential issues
 if(length(coffee_2019_M10_value) == 1) {
   # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
   rows_to_update <- which(prices_pivot2$item == "Coffee (pound)" & is.na(prices_pivot2$`2019`))
@@ -80,7 +81,6 @@ if(length(coffee_2019_M10_value) == 1) {
 } else {
   warning("Multiple or no values found for Coffee (pound) for 2019 M10. No updates made.")
 }
-
 
 # Change columns 2-7 to numeric
 prices_pivot2[,2:7] <- sapply(prices_pivot2[,2:7], as.numeric)
