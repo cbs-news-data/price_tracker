@@ -13,13 +13,13 @@ series_ids <- c('APU0000709112', 'APU0000704111', 'APU0000711211', 'APU000070311
                 'APU0000702111', 'APU0000708111', 'APU0000702421', 'APU000074714', 'APU0000712112', 
                 'APU0000717311', 'APU000072620', 'APU0000FN1101', 'APU0000710212', 'APU000072610', 
                 'APU0000713111', 'APU0000FJ4101', 'APU0000712311','APU0000720311','APU0000711415',
-                'APU0000701312', 'APU0000710411', 'APU0000FS1101', 'APU0000714221')
+                'APU0000701312', 'APU0000710411', 'APU0000FS1101', 'APU0000701322')
 item_names <- c("Milk (half gallon)", "Bacon (pound)", "Bananas (pound)", "Ground Beef (pound)", 
                 "Chicken Breast (pound)", "Loaf of Bread", "Dozen eggs", "Cookies", "Regular Unleaded Gasoline (gallon)", 
                 "Potatoes (pound)", "Coffee (pound)", "Utility gas", "2-liter soft drink", 
                 "Cheddar Cheese (pound)", "Electricity (kilowatt hour)", "Frozen orange juice", 
                 "Yogurt (8 ounces)", "Tomatoes (pound)", "Table Wine", "Strawberries (pint)", "Rice (pound)",
-                "Ice Cream (half gallon)","Butter (pound)","Canned Corn (pound)")
+                "Ice Cream (half gallon)","Butter (pound)","Spaghetti and Macaroni")
 
 # Pull the data via the API
 payload <- list(
@@ -51,16 +51,16 @@ prices_pivot <- prices %>% filter(period==prices$period[1]) %>% pivot_wider(name
 
 # Fix coffee price problem 
 # Step 1: Find the closest available 2019 M10 value for "Coffee (pound)" from the `prices` table
-coffee_2019_M10_value <- prices$value[which(prices$item == "Coffee (pound)" & prices$year == "2019" & prices$period == "M10")]
+coffee_2019_M10_value <- prices$value[which(prices$item == "COFFEE (POUND)" & prices$year == "2019" & prices$period == "M10")]
 
 # Ensure there's only one value to avoid potential issues
 if(length(coffee_2019_M10_value) == 1) {
   # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
-  rows_to_update <- which(prices_pivot$year == "2019" & is.na(prices_pivot$`Coffee (pound)`))
+  rows_to_update <- which(prices_pivot$year == "2019" & is.na(prices_pivot$`COFFEE (POUND)`))
   
   # Step 3: Update those rows with the 2019 M10 value for "Coffee (pound)"
   if(length(rows_to_update) > 0) { # Check if there are any rows to update
-    prices_pivot$`Coffee (pound)`[rows_to_update] <- coffee_2019_M10_value
+    prices_pivot$`COFFEE (POUND)`[rows_to_update] <- coffee_2019_M10_value
   }
 } else {
   warning("Multiple or no values found for Coffee (pound) for 2019 M10. No updates made.")
@@ -75,14 +75,14 @@ prices_pivot2 <- prices_pivot2 %>% select(1,7,6,5,4,3,2)
 #Ensure there's only one value to avoid potential issues
 if(length(coffee_2019_M10_value) == 1) {
   # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
-  rows_to_update <- which(prices_pivot2$item == "Coffee (pound)" & is.na(prices_pivot2$`2019`))
+  rows_to_update <- which(prices_pivot2$item == "COFFEE (POUND)" & is.na(prices_pivot2$`2019`))
   
   # Step 3: Update those rows with the 2019 M10 value for "Coffee (pound)"
   if(length(rows_to_update) > 0) { # Check if there are any rows to update
     prices_pivot2$`2019`[rows_to_update] <- coffee_2019_M10_value
   }
 } else {
-  warning("Multiple or no values found for Coffee (pound) for 2019 M10. No updates made.")
+  warning("Multiple or no values found for COFFEE (POUND) for 2019 M10. No updates made.")
 }
 
 # Change columns 2-7 to numeric
