@@ -10,6 +10,11 @@ homes_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/med
 # Repeat with cities
 #homes_city <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/City_zori_uc_sfrcondomfr_sm_month.csv")
 
+# Capture and save date of update for homes
+latest_month_homes <- names(homes_metro)[ncol(homes_metro)]
+# Write file of latest month to repoo for quick reference checks
+write(latest_month_homes, "data/latest_month_homes.txt")
+
 # Filter the most recent month and the same month from the five previous years
 homes_metro_5yrs <- homes_metro %>%
   select(3, 5, ncol(.) - (5:0)*12)

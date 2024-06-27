@@ -10,6 +10,12 @@ rent_zip <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/Z
 # Repeat with cities
 rent_city <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/City_zori_uc_sfrcondomfr_sm_month.csv")
 
+# Capture and save date of update for homes
+latest_month_rents <- names(rent_metro)[ncol(rent_metro)]
+# Write file of latest month to repoo for quick reference checks
+write(latest_month_rents, "data/latest_month_rents.txt")
+
+
 # Filter the most recent month and the same month from the five previous years
 rent_metro_5yrs <- rent_metro %>%
   select(2, 3, 5, ncol(.) - (5:0)*12)
