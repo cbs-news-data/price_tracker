@@ -12,13 +12,13 @@ homes_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/med
 
 # Filter the most recent month and the same month from the five previous years
 homes_metro_5yrs <- homes_metro %>%
-  select(3,5,138,150,162,174,186,198)
+  select(3, 5, ncol(.) - (5:0)*12)
 #homes_county_5yrs <- homes_county %>%
-#  select(3,5,61,73,85,97,109,121)
+#  select(3, 5, ncol(.) - (5:0)*12)
 #homes_zip_5yrs <- homes_zip %>%
-#  select(3,5,61,73,85,97,109,121)
+#  select(3, 5, ncol(.) - (5:0)*12)
 #homes_city_5yrs <- homes_city %>%
-#  select(3,5,60,72,84,96,108,120)
+#  select(3, 5, ncol(.) - (5:0)*12)
 
 # Format the five year tables with rounded figures in the last five columns with no demical places
 homes_metro_5yrs <- homes_metro_5yrs %>%

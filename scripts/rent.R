@@ -12,13 +12,13 @@ rent_city <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/
 
 # Filter the most recent month and the same month from the five previous years
 rent_metro_5yrs <- rent_metro %>%
-  select(2,3,5,57,69,81,93,105,117)
+  select(2, 3, 5, ncol(.) - (5:0)*12)
 rent_county_5yrs <- rent_county %>%
-  select(2,3,5,61,73,85,97,109,121)
+  select(2, 3, 5, ncol(.) - (5:0)*12)
 rent_zip_5yrs <- rent_zip %>%
-  select(2,3,5,61,73,85,97,109,121)
+  select(2, 3, 5, ncol(.) - (5:0)*12)
 rent_city_5yrs <- rent_city %>%
-  select(2,3,5,60,72,84,96,108,120)
+  select(2, 3, 5, ncol(.) - (5:0)*12)
 
 # Format the five year tables with rounded figures in the last five columns with no demical places
 rent_metro_5yrs <- rent_metro_5yrs %>%
