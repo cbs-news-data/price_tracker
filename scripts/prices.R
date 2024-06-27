@@ -17,7 +17,7 @@ series_ids <- c('APU0000709112', 'APU0000704111', 'APU0000711211', 'APU000070311
 item_names <- c("Milk (half gallon)", "Bacon (pound)", "Bananas (pound)", "Ground Beef (pound)", 
                 "Chicken Breast (pound)", "Loaf of Bread", "Dozen eggs", "Cookies", "Regular Unleaded Gasoline (gallon)", 
                 "Potatoes (pound)", "Coffee (pound)", "Utility gas", "2-liter soft drink", 
-                "Cheddar Cheese (pound)", "Electricity (kilowatt hour)", "Frozen orange juice", 
+                "Cheddar Cheese (pound)", "Electricity (kw hour)", "Frozen orange juice", 
                 "Yogurt (8 ounces)", "Tomatoes (pound)", "Table Wine", "Strawberries (pint)", "Rice (pound)",
                 "Ice Cream (half gallon)","Butter (pound)","Spaghetti and Macaroni")
 
