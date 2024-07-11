@@ -2,6 +2,9 @@ library(tidyverse)
 library(blsAPI)
 library(jsonlite)
 
+# WORK TO BE DONE
+# AUTOMATING USING THE MOST RECENT MONTHLY DATA AND THE SAME FOR PRIOR YEARS
+
 # Load bls series data from data folder
 series <- read_tsv("data/ap.series.txt") %>% filter(begin_year < 2019 & end_year > 2023) %>% filter(area_code == "0000" )
 
@@ -47,7 +50,17 @@ prices <- bind_rows(prices_list)
 prices$item <- toupper(prices$item)
 
 # pivot the table with dates on the rows and items in the columns
+# Set to always grab the latest month
 prices_pivot <- prices %>% filter(period==prices$period[1]) %>% pivot_wider(names_from = item, values_from = value)
+
+# Create a check value for the period that is the latest month
+latest_month_price <- prices %>%
+  filter(latest == "true") %>%
+  select(period) %>%
+  group_by(period) %>%
+  slice(1) %>%
+  pull(period) %>%
+  first()
 
 # Fix coffee price problem 
 # Step 1: Find the closest available 2019 M10 value for "Coffee (pound)" from the `prices` table

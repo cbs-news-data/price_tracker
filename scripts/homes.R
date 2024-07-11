@@ -2,7 +2,7 @@ library(tidyverse)
 library(tidycensus)
 
 # Import zillow rent data
-homes_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/median_sale_price/Metro_median_sale_price_uc_sfrcondo_sm_month.csv?t=1718976907")
+homes_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/median_sale_price/Metro_median_sale_price_uc_sfrcondo_sm_month.csv")
 # Repeat with counties
 #homes_county <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/County_zori_uc_sfrcondomfr_sm_month.csv")
 # Repeat with zip codes
