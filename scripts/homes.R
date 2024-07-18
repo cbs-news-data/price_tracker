@@ -1,6 +1,14 @@
 library(tidyverse)
 library(tidycensus)
 
+# Download Zillow's typical home value data by metro for all homes as a stand-in for 'typical homes'
+# We looked at median, list, sales, etc. and upon review the most accurate and up to date measure of the real market is the Zillow value estimate
+typical_home <- read_csv("https://files.zillowstatic.com/research/public_csvs/zhvi/Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_month.csv")
+
+# Extract the most recent month and the same month in 2019
+typical_home <- typical_home %>%
+  select(2, 3, 5, ncol(.) - (5:0)*12) %>% select(1:4,9)
+
 # Import zillow rent data
 homes_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/median_sale_price/Metro_median_sale_price_uc_sfrcondo_sm_month.csv")
 # Repeat with counties
