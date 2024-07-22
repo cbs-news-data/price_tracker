@@ -1,16 +1,8 @@
 library(tidyverse)
 library(tidycensus)
 
-# Download Zillow's typical home value data by metro for all homes as a stand-in for 'typical homes'
-# We looked at median, list, sales, etc. and upon review the most accurate and up to date measure of the real market is the Zillow value estimate
-typical_home <- read_csv("https://files.zillowstatic.com/research/public_csvs/zhvi/Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_month.csv")
-
-# Extract the most recent month and the same month in 2019
-typical_home <- typical_home %>%
-  select(2, 3, 5, ncol(.) - (5:0)*12) %>% select(1:4,9)
-
 # Import zillow rent data
-homes_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/median_sale_price/Metro_median_sale_price_uc_sfrcondo_sm_month.csv")
+homes_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/zhvi/Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_month.csv")
 # Repeat with counties
 #homes_county <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/County_zori_uc_sfrcondomfr_sm_month.csv")
 # Repeat with zip codes
@@ -35,7 +27,7 @@ homes_metro_5yrs <- homes_metro %>%
 
 # Format the five year tables with rounded figures in the last five columns with no demical places
 homes_metro_5yrs <- homes_metro_5yrs %>%
-  mutate(across(4:8, round, digits = 0))
+  mutate(across(3:8, round, digits = 0))
 #homes_county_5yrs <- homes_county_5yrs %>%
 #  mutate(across(4:9, round, digits = 0))
 #homes_zip_5yrs <- homes_zip_5yrs %>%
