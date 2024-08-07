@@ -52,7 +52,7 @@ gas_prices %>% select(1:2,20:29) %>% write_csv("data/gas_prices_cities.csv")
 gas_date <- format(max(gas_prices$date), "%B %d")
 
 # Create the description string
-gas_description <- paste("The price per gallon reported by the Energy Information Administration as of ", gas_date, ". Hover anywhere on the chart to see the price for any specific week.",sep="")
+gas_description <- paste("The price per gallon reported by the Energy Information Administration as of ", gas_date, ". Hover anywhere on the chart to see the price for any specific week. The red line shows the U.S. average by comparison.",sep="")
 
 # Create a list to represent the JSON structure
 json_data <- list(
