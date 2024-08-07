@@ -40,6 +40,28 @@ write_csv(gas_prices, "data/gas_prices.csv")
 
 
 
+# Assuming 'oil_prices' is a data frame with a 'date' column
+# Convert the date to the desired format
+gas_date <- format(max(gas_prices$date), "%B %d")
+
+# Create the description string
+gas_description <- paste("The price per gallon reported by the Energy Information Administration as of ", gas_date, ". Hover anywhere on the chart to see the price for any specific week.",sep="")
+
+# Create a list to represent the JSON structure
+json_data <- list(
+  describe = list(
+    intro = gas_description
+  )
+)
+
+# Convert the list to JSON format
+json_string <- toJSON(json_data, pretty = TRUE)
+
+# Write the JSON string to a file
+write(json_string, file = "data/gas_update.json")
+
+
+
 
 
 
