@@ -1,7 +1,6 @@
 # Load necessary libraries
 library(rvest)
 library(dplyr)
-
 library(tidyverse)
 library(readxl)
 library(jsonlite)
@@ -24,6 +23,8 @@ colnames(gas_prices) <- sub(" Regular.*", "", colnames(gas_prices))
 colnames(gas_prices) <- sub("Weekly ", "", colnames(gas_prices))
 # Repeat to keep only the string before " ("
 colnames(gas_prices) <- sub(" \\(.*", "", colnames(gas_prices))
+# Rename the first column to "date"
+colnames(gas_prices)[1] <- "date"
 # convert the date to a date
 gas_prices$date <- as.Date(gas_prices$date, format = "%Y-%m-%d")
 # include the prices since the beginning of 2019
@@ -31,7 +32,7 @@ gas_prices <- gas_prices %>% filter(date >= "2014-01-01")
 # Round any number in any column to two decimals
 gas_prices <- gas_prices %>% mutate(across(where(is.numeric), ~ round(., 2)))
 # Sort by date
-gas_prices <- gas_prices %>% arrange(Date)
+gas_prices <- gas_prices %>% arrange(date)
 
 
 # export the oil prices
