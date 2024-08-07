@@ -23,7 +23,7 @@ write_csv(oil_prices, "data/oil_prices.csv")
 formatted_date <- format(max(oil_prices$date), "%B %d, %Y")
 
 # Create the description string
-description <- paste("The price per barrel reported by the Energy Information Administration as of ", formatted_date, ".")
+description <- paste("The price per barrel reported by the Energy Information Administration as of ", formatted_date, ".",sep="")
 
 # Create a list to represent the JSON structure
 json_data <- list(
