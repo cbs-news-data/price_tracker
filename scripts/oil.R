@@ -27,8 +27,8 @@ description <- paste("The price of a barrel of crude oil as of", formatted_date)
 
 # Create a list to represent the JSON structure
 json_data <- list(
-  annotate = list(
-    describe.intro = description
+  describe = list(
+    intro = description
   )
 )
 
