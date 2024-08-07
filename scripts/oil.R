@@ -1,5 +1,6 @@
 library(tidyverse)
 library(readxl)
+library(jsonlite)
 
 
 # Read this excel file for oil prices
@@ -12,7 +13,27 @@ colnames(oil_prices) <- c("date","price")
 # convert the date to a date
 oil_prices$date <- as.Date(oil_prices$date, format = "%Y-%m-%d")
 # include the prices since the beginning of 2019
-oil_prices <- oil_prices %>% filter(date >= "2019-01-01")
+oil_prices <- oil_prices %>% filter(date >= "2014-01-01")
 # export the oil prices
 write_csv(oil_prices, "data/oil_prices.csv")
 
+
+# Assuming 'oil_prices' is a data frame with a 'date' column
+# Convert the date to the desired format
+formatted_date <- format(max(oil_prices$date), "%B %d, %Y")
+
+# Create the description string
+description <- paste("The price of a barrel of crude oil as of", formatted_date)
+
+# Create a list to represent the JSON structure
+json_data <- list(
+  annotate = list(
+    describe.intro = description
+  )
+)
+
+# Convert the list to JSON format
+json_string <- toJSON(json_data, pretty = TRUE)
+
+# Write the JSON string to a file
+write(json_string, file = "data/oil_update.json")
