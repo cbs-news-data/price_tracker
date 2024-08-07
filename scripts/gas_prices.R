@@ -34,9 +34,16 @@ gas_prices <- gas_prices %>% mutate(across(where(is.numeric), ~ round(., 2)))
 # Sort by date
 gas_prices <- gas_prices %>% arrange(date)
 
-
 # export the oil prices
 write_csv(gas_prices, "data/gas_prices.csv")
+# Create US and regions
+gas_prices %>% select(1:10) %>% write_csv("data/gas_prices_us.csv")
+# Create US and states
+gas_prices %>% select(1:2,11:19) %>% write_csv("data/gas_prices_states.csv")
+# Create US and cities
+gas_prices %>% select(1:2,20:29) %>% write_csv("data/gas_prices_cities.csv")
+
+
 
 
 
