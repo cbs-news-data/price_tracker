@@ -20,10 +20,10 @@ write_csv(oil_prices, "data/oil_prices.csv")
 
 # Assuming 'oil_prices' is a data frame with a 'date' column
 # Convert the date to the desired format
-formatted_date <- format(max(oil_prices$date), "%B %d, %Y")
+formatted_date <- format(max(oil_prices$date), "%B %d")
 
 # Create the description string
-description <- paste("The price per barrel reported by the Energy Information Administration as of ", formatted_date, ".",sep="")
+description <- paste("The price per barrel reported by the Energy Information Administration as of ", formatted_date, ". Hover anywhere on the chart to see the price for any specific week.",sep="")
 
 # Create a list to represent the JSON structure
 json_data <- list(
