@@ -13,24 +13,25 @@ download.file(url_gas, destfile = "data/gas_prices.xls", mode = "wb")
 gas_prices <- read_excel("data/gas_prices.xls", sheet = 4, skip = 2)
 
 # Transform to long data
-gas_prices <- gas_prices %>% pivot_longer(cols = -1, names_to = "date", values_to = "price")
-colnames(gas_prices) <- c("date","region","price")
+# as_prices <- gas_prices %>% pivot_longer(cols = -1, names_to = "date", values_to = "price")
+# colnames(gas_prices) <- c("date","region","price")
 # Eliminate rows where the price is NA
-gas_prices <- gas_prices %>% filter(!is.na(price))
-# Edit region to include only the string before " Regular"
-gas_prices$region <- str_remove(gas_prices$region, " Regular.*")
-# Remove weekly from the region
-gas_prices$region <- str_remove(gas_prices$region, "Weekly ")
-# Retain only the string prior to " (" in the region
-gas_prices$region <- str_remove(gas_prices$region, " \\(.*")
-# Round the price to two decimals
-gas_prices$price <- round(gas_prices$price, 2)
+# gas_prices <- gas_prices %>% filter(!is.na(price))
+
+# Edit column names to keep only the string before " Regular"
+colnames(gas_prices) <- sub(" Regular.*", "", colnames(gas_prices))
+# Repeat to remove "Weekly " from the column names
+colnames(gas_prices) <- sub("Weekly ", "", colnames(gas_prices))
+# Repeat to keep only the string before " ("
+colnames(gas_prices) <- sub(" \\(.*", "", colnames(gas_prices))
 # convert the date to a date
 gas_prices$date <- as.Date(gas_prices$date, format = "%Y-%m-%d")
 # include the prices since the beginning of 2019
 gas_prices <- gas_prices %>% filter(date >= "2014-01-01")
-# Sort by region then date
-gas_prices <- gas_prices %>% arrange(region, date)
+# Round any number in any column to two decimals
+gas_prices <- gas_prices %>% mutate(across(where(is.numeric), ~ round(., 2)))
+# Sort by date
+gas_prices <- gas_prices %>% arrange(Date)
 
 
 # export the oil prices
