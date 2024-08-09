@@ -51,7 +51,7 @@ gas_prices %>% select(1:2,20:29) %>% write_csv("data/gas_prices_cities.csv")
 
 # Assuming 'oil_prices' is a data frame with a 'date' column
 # Convert the date to the desired format
-gas_date <- format(max(gas_prices$date), "%B %-d")
+gas_date <- format(max(gas_prices$date), "%B %e")
 
 # Create the description string
 gas_description <- paste("The price per gallon reported by the Energy Information Administration as of ", gas_date, ". Hover anywhere on the chart to see the price for any specific week. The red line shows the U.S. average by comparison.",sep="")
