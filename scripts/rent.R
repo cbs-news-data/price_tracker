@@ -124,7 +124,7 @@ write_csv(rent_city_5yrs, "data/rent_city_5yrs.csv")
 rent_date <- format(as.Date(latest_month_rents), "%B %d")
 
 # Create the description string
-description <- paste("The median rent in the largest 200 metro areas, according to Zillow data through ," rent_date, " compared to the same month in 2019.",sep="")
+description <- paste("The median rent in the largest 200 metro areas, according to Zillow data through ", rent_date, " compared to the same month in 2019.",sep="")
 
 # Create a list to represent the JSON structure
 json_data <- list(
@@ -137,7 +137,7 @@ json_data <- list(
 json_string <- toJSON(json_data, pretty = TRUE)
 
 # Write the JSON string to a file
-write(json_string, file = "data/cpi_update.json")
+write(json_string, file = "data/rent_update.json")
 
 
 
