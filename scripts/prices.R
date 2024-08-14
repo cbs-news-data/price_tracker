@@ -111,12 +111,11 @@ write_csv(prices, "data/prices.csv")
 write_csv(prices_pivot, "data/prices_pivot.csv")
 write_csv(prices_pivot2, "data/prices_pivot_table.csv")
 
-# Assuming 'oil_prices' is a data frame with a 'date' column
 # Convert the date to the desired format
 cpi_date <- prices$periodName[1]
 
 # Create the description string
-description <- paste("Hover over charts to see the average nationwide price as of the end of ", cpi_date,sep="")
+description <- paste("Hover over charts to see the average nationwide price as of the end of ", cpi_date,".",sep="")
 
 # Create a list to represent the JSON structure
 json_data <- list(
