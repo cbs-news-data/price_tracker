@@ -122,6 +122,28 @@ write_csv(homes_metro_5yrs, "data/homes_metro_5yrs.csv")
 #write_csv(homes_city_5yrs, "data/homes_city_5yrs.csv")
 
 
+# Convert the date to the desired format
+homes_date <- format(as.Date(latest_month_homes), "%B %d")
+
+# Create the description string
+description <- paste("The cost of the typical home in the largest 200 metro areas, according to Zillow estimates and data through ", homes_date, " compared to the same month in 2019.",sep="")
+
+# Create a list to represent the JSON structure
+json_data <- list(
+  describe = list(
+    intro = description
+  )
+)
+
+# Convert the list to JSON format
+json_string <- toJSON(json_data, pretty = TRUE)
+
+# Write the JSON string to a file
+write(json_string, file = "data/cpi_update.json")
+
+
+
+
 
 
 
