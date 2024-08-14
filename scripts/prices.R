@@ -111,6 +111,27 @@ write_csv(prices, "data/prices.csv")
 write_csv(prices_pivot, "data/prices_pivot.csv")
 write_csv(prices_pivot2, "data/prices_pivot_table.csv")
 
+# Assuming 'oil_prices' is a data frame with a 'date' column
+# Convert the date to the desired format
+cpi_date <- prices$periodName[1]
+
+# Create the description string
+description <- paste("Hover over charts to see the average nationwide price as of the end of ", cpi_date,sep="")
+
+# Create a list to represent the JSON structure
+json_data <- list(
+  describe = list(
+    intro = description
+  )
+)
+
+# Convert the list to JSON format
+json_string <- toJSON(json_data, pretty = TRUE)
+
+# Write the JSON string to a file
+write(json_string, file = "data/cpi_update.json")
+
+
 
 # Notes on data sources / links
 # 0000	is U.S. city average
