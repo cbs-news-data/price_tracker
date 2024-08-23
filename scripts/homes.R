@@ -139,7 +139,7 @@ json_data <- list(
 json_string <- toJSON(json_data, pretty = TRUE)
 
 # Write the JSON string to a file
-write(json_string, file = "data/cpi_update.json")
+write(json_string, file = "data/homes_update.json")
 
 
 
