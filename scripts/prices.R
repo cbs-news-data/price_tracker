@@ -16,8 +16,7 @@ series_ids <- c('APU0000709112', 'APU0000704111', 'APU0000711211', 'APU000070311
                 'APU0000702111', 'APU0000708111', 'APU0000702421', 'APU000074714', 'APU0000712112', 
                 'APU0000717311', 'APU000072620', 'APU0000FN1101', 'APU0000710212', 'APU000072610', 
                 'APU0000713111', 'APU0000FJ4101', 'APU0000712311','APU0000720311','APU0000711415',
-                'APU0000701312', 'APU0000710411', 'APU0000FS1101', 'APU0000718311')
-# 'APU0000701322'
+                'APU0000701312', 'APU0000710411', 'APU0000FS1101', 'APU0000701322')
 item_names <- c("Milk (half gallon)", "Bacon (pound)", "Bananas (pound)", "Ground Beef (pound)", 
                 "Chicken Breast (pound)", "Loaf of Bread", "Dozen eggs", "Cookies", "Regular Unleaded Gasoline (gallon)", 
                 "Potatoes (pound)", "Coffee (pound)", "Utility gas", "2-liter soft drink", 
