@@ -77,6 +77,8 @@ gas_prices_pivot2$percent_increase_1y <- round(gas_prices_pivot2$percent_increas
 
 # add a column called state and populate in this order United States, North Carolina, Wisconsin, Nevada, Michigan, Arizona, Pennsylvania, Georgia
 gas_prices_pivot2$state <- c("United States", "North Carolina", "Wisconsin", "Nevada", "Michigan", "Arizona", "Pennsylvania", "Georgia")
+gas_prices_pivot$state <- c("United States", "North Carolina", "Wisconsin", "Nevada", "Michigan", "Arizona", "Pennsylvania", "Georgia")
+
 
 # export prices as csv
 write_csv(gas_prices, "data/battleground_gas_prices.csv")
