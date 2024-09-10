@@ -5,6 +5,8 @@ library(tidycensus)
 # We looked at multiple other datasets and methods to estimate this data
 # But Zillow's data was the most consistent in terms of data and expert perspectives
 starter_2br <- read_csv("https://files.zillowstatic.com/research/public_csvs/zhvi/Metro_zhvi_bdrmcnt_2_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv?t=1721160925")
+# drop the final column
+starter_2br <- starter_2br %>% select(-ncol(.))
 
 # Extract the most recent month and the same month in 2019
 starter_2br <- starter_2br %>%
@@ -21,6 +23,8 @@ starter_2br <- starter_2br %>%
 # Download Zillow's typical home value data by metro for all homes as a stand-in for 'typical homes'
 # We looked at median, list, sales, etc. and upon review the most accurate and up to date measure of the real market is the Zillow value estimate
 typical_home <- read_csv("https://files.zillowstatic.com/research/public_csvs/zhvi/Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_month.csv")
+# drop the final column
+typical_home <- typical_home %>% select(-ncol(.))
 
 # Extract the most recent month and the same month in 2019
 typical_home <- typical_home %>%
@@ -283,5 +287,20 @@ income_ranges$typical_income_group_pct_19[income_ranges$typical_income_group_19 
 # Now let's add those percentages that CAN afford into the metro_starter data analysis frame
 metro_starter <- metro_starter %>%
   left_join(income_ranges %>% select(geoid, typical_income_group_pct_19, starter_income_group_pct_19, typical_income_group_pct_24, starter_income_group_pct_24), by = c("geoid" = "geoid"))
+
+# Create a text list of city, state for all cases where the percent of starter home group in 19 is 33.3 or above
+metro_starter$starter_afford_19 <- ifelse(metro_starter$starter_income_group_pct_19 > 33.3, paste(metro_starter$city, metro_starter$state, sep=", "), "")
+# Repeat for 24
+metro_starter$starter_afford_24 <- ifelse(metro_starter$starter_income_group_pct_24 > 33.3, paste(metro_starter$city, metro_starter$state, sep=", "), "")
+# sort by starter_income_group_pct_24 and print a text file
+metro_starter <- metro_starter %>%
+  arrange(desc(starter_income_group_pct_24))
+writeLines(metro_starter$starter_afford_24, "starter_afford_24.txt")
+# Repeat for 19
+metro_starter <- metro_starter %>%
+  arrange(desc(starter_income_group_pct_19))
+writeLines(metro_starter$starter_afford_19, "starter_afford_19.txt")
+
+
 
 

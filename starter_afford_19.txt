@@ -1,0 +1,101 @@
+Ogden, UT
+Provo, UT
+Raleigh, NC
+Minneapolis, MN
+Washington, DC
+Salt Lake City, UT
+Boise City, ID
+Atlanta, GA
+Phoenix, AZ
+Baltimore, MD
+Bridgeport, CT
+Des Moines, IA
+Dallas, TX
+Nashville, TN
+Durham, NC
+Hartford, CT
+Madison, WI
+Charleston, SC
+Richmond, VA
+Chicago, IL
+Grand Rapids, MI
+Jacksonville, FL
+Colorado Springs, CO
+Omaha, NE
+Philadelphia, PA
+Harrisburg, PA
+Charlotte, NC
+Kansas City, MO
+Albany, NY
+Virginia Beach, VA
+Stockton, CA
+Columbus, OH
+Denver, CO
+Allentown, PA
+Houston, TX
+Indianapolis, IN
+North Port, FL
+Palm Bay, FL
+Riverside, CA
+St. Louis, MO
+New Haven, CT
+Cape Coral, FL
+Orlando, FL
+Worcester, MA
+Austin, TX
+Cincinnati, OH
+United States, NA
+Chattanooga, TN
+Las Vegas, NV
+Spokane, WA
+San Antonio, TX
+Providence, RI
+Louisville, KY
+Milwaukee, WI
+Tampa, FL
+Pittsburgh, PA
+Detroit, MI
+Portland, OR
+Sacramento, CA
+Modesto, CA
+Miami, FL
+Rochester, NY
+Deltona, FL
+Wichita, KS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
