@@ -1,5 +1,6 @@
 year,period,periodName,latest,value,item
-2024,M07,July,true,3.622,United States
+2024,M08,August,true,3.521,United States
+2024,M07,July,NA,3.622,United States
 2024,M06,June,NA,3.601,United States
 2024,M05,May,NA,3.755,United States
 2024,M04,April,NA,3.776,United States
@@ -78,7 +79,8 @@ year,period,periodName,latest,value,item
 2018,M03,March,NA,2.572,United States
 2018,M02,February,NA,2.575,United States
 2018,M01,January,NA,2.539,United States
-2024,M07,July,true,3.621,North Carolina (Middle Atlantic)
+2024,M08,August,true,3.536,North Carolina (Middle Atlantic)
+2024,M07,July,NA,3.621,North Carolina (Middle Atlantic)
 2024,M06,June,NA,3.619,North Carolina (Middle Atlantic)
 2024,M05,May,NA,3.709,North Carolina (Middle Atlantic)
 2024,M04,April,NA,3.616,North Carolina (Middle Atlantic)
@@ -157,7 +159,8 @@ year,period,periodName,latest,value,item
 2018,M03,March,NA,2.671,North Carolina (Middle Atlantic)
 2018,M02,February,NA,2.739,North Carolina (Middle Atlantic)
 2018,M01,January,NA,2.691,North Carolina (Middle Atlantic)
-2024,M07,July,true,3.617,East North Central (Wisconsin)
+2024,M08,August,true,3.524,East North Central (Wisconsin)
+2024,M07,July,NA,3.617,East North Central (Wisconsin)
 2024,M06,June,NA,3.552,East North Central (Wisconsin)
 2024,M05,May,NA,3.632,East North Central (Wisconsin)
 2024,M04,April,NA,3.639,East North Central (Wisconsin)
@@ -236,7 +239,8 @@ year,period,periodName,latest,value,item
 2018,M03,March,NA,2.509,East North Central (Wisconsin)
 2018,M02,February,NA,2.469,East North Central (Wisconsin)
 2018,M01,January,NA,2.571,East North Central (Wisconsin)
-2024,M07,July,true,3.697,Mountain (Nevada)
+2024,M08,August,true,3.688,Mountain (Nevada)
+2024,M07,July,NA,3.697,Mountain (Nevada)
 2024,M06,June,NA,3.729,Mountain (Nevada)
 2024,M05,May,NA,4.002,Mountain (Nevada)
 2024,M04,April,NA,4.157,Mountain (Nevada)
@@ -315,7 +319,8 @@ year,period,periodName,latest,value,item
 2018,M03,March,NA,2.436,Mountain (Nevada)
 2018,M02,February,NA,2.398,Mountain (Nevada)
 2018,M01,January,NA,2.347,Mountain (Nevada)
-2024,M07,July,true,3.588,Detroit (Michigan)
+2024,M08,August,true,3.540,Detroit (Michigan)
+2024,M07,July,NA,3.588,Detroit (Michigan)
 2024,M06,June,NA,3.537,Detroit (Michigan)
 2024,M05,May,NA,3.583,Detroit (Michigan)
 2024,M04,April,NA,3.590,Detroit (Michigan)
@@ -394,7 +399,8 @@ year,period,periodName,latest,value,item
 2018,M03,March,NA,2.524,Detroit (Michigan)
 2018,M02,February,NA,2.500,Detroit (Michigan)
 2018,M01,January,NA,2.612,Detroit (Michigan)
-2024,M07,July,true,3.492,Phoenix (Arizona)
+2024,M08,August,true,3.455,Phoenix (Arizona)
+2024,M07,July,NA,3.492,Phoenix (Arizona)
 2024,M06,June,NA,3.698,Phoenix (Arizona)
 2024,M05,May,NA,4.034,Phoenix (Arizona)
 2024,M04,April,NA,4.236,Phoenix (Arizona)
@@ -473,7 +479,8 @@ year,period,periodName,latest,value,item
 2018,M03,March,NA,2.336,Phoenix (Arizona)
 2018,M02,February,NA,2.306,Phoenix (Arizona)
 2018,M01,January,NA,2.240,Phoenix (Arizona)
-2024,M07,July,true,3.527,Philadelphia (Pennsylvania)
+2024,M08,August,true,3.370,Philadelphia (Pennsylvania)
+2024,M07,July,NA,3.527,Philadelphia (Pennsylvania)
 2024,M06,June,NA,3.475,Philadelphia (Pennsylvania)
 2024,M05,May,NA,3.622,Philadelphia (Pennsylvania)
 2024,M04,April,NA,3.562,Philadelphia (Pennsylvania)
@@ -552,7 +559,8 @@ year,period,periodName,latest,value,item
 2018,M03,March,NA,2.605,Philadelphia (Pennsylvania)
 2018,M02,February,NA,2.708,Philadelphia (Pennsylvania)
 2018,M01,January,NA,2.679,Philadelphia (Pennsylvania)
-2024,M07,July,true,3.372,Atlanta (Georgia)
+2024,M08,August,true,3.238,Atlanta (Georgia)
+2024,M07,July,NA,3.372,Atlanta (Georgia)
 2024,M06,June,NA,3.327,Atlanta (Georgia)
 2024,M05,May,NA,3.416,Atlanta (Georgia)
 2024,M04,April,NA,3.404,Atlanta (Georgia)
