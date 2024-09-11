@@ -5,7 +5,6 @@ library(tidyverse)
 library(readxl)
 library(jsonlite)
 
-
 # Read this excel file for oil prices
 url_gas <- "https://www.eia.gov/petroleum/gasdiesel/xls/pswrgvwall.xls"
 download.file(url_gas, destfile = "data/gas_prices.xls", mode = "wb")
