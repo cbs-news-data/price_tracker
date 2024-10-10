@@ -1,6 +1,7 @@
 library(tidyverse)
 library(blsAPI)
 library(jsonlite)
+library(dplyr)
 
 # WORK TO BE DONE
 # AUTOMATING USING THE MOST RECENT MONTHLY DATA AND THE SAME FOR PRIOR YEARS
@@ -33,14 +34,20 @@ payload <- list(
 response <- blsAPI(payload, 2)
 json     <- fromJSON(response)
 
-# Initialize an empty list to store data frames
-prices_list <- list()
+# Initialize an empty list to store the results
+prices_list <- vector("list", length(series_ids))
 
 # Loop through each series ID and corresponding item name
 for (i in seq_along(series_ids)) {
-  prices_data <- json[["Results"]][["series"]][["data"]][[i]] %>% 
-    select(-6) %>% 
+  # Extract the data and convert it to a data frame
+  prices_data <- as.data.frame(json[["Results"]][["series"]][["data"]][[i]])
+  
+  # Apply select() and mutate() to the data frame
+  prices_data <- prices_data %>%
+    select(-6) %>%
     mutate(item = item_names[i])
+  
+  # Store the modified data frame in the list
   prices_list[[i]] <- prices_data
 }
 
