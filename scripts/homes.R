@@ -1,5 +1,6 @@
 library(tidyverse)
 library(tidycensus)
+library(jsonlite)
 
 # Import zillow rent data
 homes_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/zhvi/Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_month.csv")
