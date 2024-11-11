@@ -21,7 +21,7 @@ series_ids <- c('APU0000709112', 'APU0000704111', 'APU0000711211', 'APU000070311
                 'APU0000703432', 'APU0000703311', 'APU0000702212', 'APU0000FN1102')
 item_names <- c("Milk (half gallon)", "Bacon", "Bananas", "Ground Beef", 
                 "Chicken Breast", "White Bread", "Dozen eggs", "Cookies", "Steak", 
-                "Potatoes", "Coffee", "Utility gas", "2-liter soft drink", 
+                "Potatoes", "Coffee", "Utility gas", "Soft Drinks (2 liter)",
                 "Cheddar Cheese", "Electricity (kw hour)", "Frozen orange juice", 
                 "Yogurt (8 ounces)", "Tomatoes", "Table Wine", "Strawberries (pint)", "Rice",
                 "Ice Cream (half gallon)","Butter","Spaghetti and Macaroni",
@@ -131,6 +131,8 @@ prices_pivot2[,2:7] <- sapply(prices_pivot2[,2:7], as.numeric)
 prices_pivot2 <- prices_pivot2 %>% mutate(percent_increase = ((`2024` - `2019`)/`2019`)*100)
 # Round percentage increase to 0 decimal places
 prices_pivot2$percent_increase <- round(prices_pivot2$percent_increase, 0)
+# Sort pivot2 alphabet
+prices_pivot2 <- prices_pivot2 %>% arrange(item)
 
 # export prices as csv
 write_csv(prices, "data/prices.csv")
