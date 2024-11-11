@@ -3,9 +3,6 @@ library(blsAPI)
 library(jsonlite)
 library(dplyr)
 
-# WORK TO BE DONE
-# AUTOMATING USING THE MOST RECENT MONTHLY DATA AND THE SAME FOR PRIOR YEARS
-
 # Load bls series data from data folder
 series <- read_tsv("data/ap.series.txt") %>% filter(begin_year < 2019 & end_year > 2023) %>% filter(area_code == "0000" )
 
@@ -17,38 +14,61 @@ series_ids <- c('APU0000709112', 'APU0000704111', 'APU0000711211', 'APU000070311
                 'APU0000702111', 'APU0000708111', 'APU0000702421', 'APU0000703511', 'APU0000712112', 
                 'APU0000717311', 'APU000072620', 'APU0000FN1101', 'APU0000710212', 'APU000072610', 
                 'APU0000713111', 'APU0000FJ4101', 'APU0000712311','APU0000720311','APU0000711415',
-                'APU0000701312', 'APU0000710411', 'APU0000FS1101', 'APU0000701322')
-item_names <- c("Milk (half gallon)", "Bacon (pound)", "Bananas (pound)", "Ground Beef (pound)", 
-                "Chicken Breast (pound)", "Loaf of Bread", "Dozen eggs", "Cookies", "Steak (pound)", 
-                "Potatoes (pound)", "Coffee (pound)", "Utility gas", "2-liter soft drink", 
-                "Cheddar Cheese (pound)", "Electricity (kw hour)", "Frozen orange juice", 
-                "Yogurt (8 ounces)", "Tomatoes (pound)", "Table Wine", "Strawberries (pint)", "Rice (pound)",
-                "Ice Cream (half gallon)","Butter (pound)","Spaghetti and Macaroni")
+                'APU0000701312', 'APU0000710411', 'APU0000FS1101', 'APU0000701322',
+                'APU0000715211', 'APU0000704312', 'APU0000714221', 'APU0000FD3101',
+                'APU0000711412', 'APU0000701111', 'APU0000711411', 'APU0000712211',
+                'APU0000711311', 'APU0000714233', 'APU0000720111', 'APU0000710211',
+                'APU0000703432', 'APU0000703311', 'APU0000702212', 'APU0000FN1102')
+item_names <- c("Milk (half gallon)", "Bacon", "Bananas", "Ground Beef", 
+                "Chicken Breast", "White Bread", "Dozen eggs", "Cookies", "Steak", 
+                "Potatoes", "Coffee", "Utility gas", "2-liter soft drink", 
+                "Cheddar Cheese", "Electricity (kw hour)", "Frozen orange juice", 
+                "Yogurt (8 ounces)", "Tomatoes", "Table Wine", "Strawberries (pint)", "Rice",
+                "Ice Cream (half gallon)","Butter","Spaghetti and Macaroni",
+                "Sugar","Boneless Ham","Canned corn","Pork Chops",
+                "Lemons","Flour","Grapefruit","Lettuce",
+                "Oranges","Dried Beans","Malt beverages","Processed American cheese",
+                "Beef for Stew","Round roast","Wheat bread","Soft Drinks (12 pack)")
 
-# Pull the data via the API
-payload <- list(
-  'seriesid'  = series_ids,
-  'startyear' = 2019,
-  'endyear'   = 2024
-)
-response <- blsAPI(payload, 2)
-json     <- fromJSON(response)
+# Function to split a vector into chunks
+split_into_chunks <- function(vec, chunk_size) {
+  split(vec, ceiling(seq_along(vec) / chunk_size))
+}
+
+# Split series_ids into chunks of 25
+series_chunks <- split_into_chunks(series_ids, 25)
+item_chunks <- split_into_chunks(item_names, 25)
 
 # Initialize an empty list to store the results
-prices_list <- vector("list", length(series_ids))
+prices_list <- list()
 
-# Loop through each series ID and corresponding item name
-for (i in seq_along(series_ids)) {
-  # Extract the data and convert it to a data frame
-  prices_data <- as.data.frame(json[["Results"]][["series"]][["data"]][[i]])
+# Loop through each chunk and make API calls
+for (chunk_index in seq_along(series_chunks)) {
+  chunk_series_ids <- series_chunks[[chunk_index]]
+  chunk_item_names <- item_chunks[[chunk_index]]
   
-  # Apply select() and mutate() to the data frame
-  prices_data <- prices_data %>%
-    select(-6) %>%
-    mutate(item = item_names[i])
+  # Pull the data via the API
+  payload <- list(
+    'seriesid'  = chunk_series_ids,
+    'startyear' = 2019,
+    'endyear'   = 2024
+  )
+  response <- blsAPI(payload, 2)
+  json <- fromJSON(response)
   
-  # Store the modified data frame in the list
-  prices_list[[i]] <- prices_data
+  # Loop through each series ID and corresponding item name in the chunk
+  for (i in seq_along(chunk_series_ids)) {
+    # Extract the data and convert it to a data frame
+    prices_data <- as.data.frame(json[["Results"]][["series"]][["data"]][[i]])
+    
+    # Apply select() and mutate() to the data frame
+    prices_data <- prices_data %>%
+      select(-6) %>%
+      mutate(item = chunk_item_names[i])
+    
+    # Store the modified data frame in the list
+    prices_list <- append(prices_list, list(prices_data))
+  }
 }
 
 # Combine all data frames into one table
@@ -71,19 +91,19 @@ latest_month_price <- prices %>%
 
 # Fix coffee price problem 
 # Step 1: Find the closest available 2019 M10 value for "Coffee (pound)" from the `prices` table
-coffee_2019_M10_value <- prices$value[which(prices$item == "COFFEE (POUND)" & prices$year == "2019" & prices$period == "M10")]
+coffee_2019_M10_value <- prices$value[which(prices$item == "COFFEE" & prices$year == "2019" & prices$period == "M10")]
 
 # Ensure there's only one value to avoid potential issues
 if(length(coffee_2019_M10_value) == 1) {
   # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
-  rows_to_update <- which(prices_pivot$year == "2019" & is.na(prices_pivot$`COFFEE (POUND)`))
+  rows_to_update <- which(prices_pivot$year == "2019" & is.na(prices_pivot$`COFFEE`))
   
   # Step 3: Update those rows with the 2019 M10 value for "Coffee (pound)"
   if(length(rows_to_update) > 0) { # Check if there are any rows to update
-    prices_pivot$`COFFEE (POUND)`[rows_to_update] <- coffee_2019_M10_value
+    prices_pivot$`COFFEE`[rows_to_update] <- coffee_2019_M10_value
   }
 } else {
-  warning("Multiple or no values found for Coffee (pound) for 2019 M10. No updates made.")
+  warning("Multiple or no values found for Coffee for 2019 M10. No updates made.")
 }
 
 # pivot the table items in rows the dates in columns
@@ -95,14 +115,14 @@ prices_pivot2 <- prices_pivot2 %>% select(1,7,6,5,4,3,2)
 #Ensure there's only one value to avoid potential issues
 if(length(coffee_2019_M10_value) == 1) {
   # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
-  rows_to_update <- which(prices_pivot2$item == "COFFEE (POUND)" & is.na(prices_pivot2$`2019`))
+  rows_to_update <- which(prices_pivot2$item == "COFFEE" & is.na(prices_pivot2$`2019`))
   
   # Step 3: Update those rows with the 2019 M10 value for "Coffee (pound)"
   if(length(rows_to_update) > 0) { # Check if there are any rows to update
     prices_pivot2$`2019`[rows_to_update] <- coffee_2019_M10_value
   }
 } else {
-  warning("Multiple or no values found for COFFEE (POUND) for 2019 M10. No updates made.")
+  warning("Multiple or no values found for COFFEE for 2019 M10. No updates made.")
 }
 
 # Change columns 2-7 to numeric
@@ -111,7 +131,6 @@ prices_pivot2[,2:7] <- sapply(prices_pivot2[,2:7], as.numeric)
 prices_pivot2 <- prices_pivot2 %>% mutate(percent_increase = ((`2024` - `2019`)/`2019`)*100)
 # Round percentage increase to 0 decimal places
 prices_pivot2$percent_increase <- round(prices_pivot2$percent_increase, 0)
-
 
 # export prices as csv
 write_csv(prices, "data/prices.csv")
@@ -136,21 +155,3 @@ json_string <- toJSON(json_data, pretty = TRUE)
 
 # Write the JSON string to a file
 write(json_string, file = "data/cpi_update.json")
-
-
-
-# Notes on data sources / links
-# 0000	is U.S. city average
-# S	Seasonally Adjusted
-# U	Not Seasonally Adjusted
-
-# URLS for the latest data
-#url_food <- "https://download.bls.gov/pub/time.series/ap/ap.data.3.Food"
-#url_gas <- "https://download.bls.gov/pub/time.series/ap/ap.data.2.Gasoline"
-#url_current <- "https://download.bls.gov/pub/time.series/ap/ap.data.0.Current"
-#url_item <- "https://download.bls.gov/pub/time.series/ap/ap.item"
-#url_period <- "https://download.bls.gov/pub/time.series/ap/ap.period"
-
-
-
-
