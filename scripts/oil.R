@@ -20,7 +20,7 @@ write_csv(oil_prices, "data/oil_prices.csv")
 
 # Assuming 'oil_prices' is a data frame with a 'date' column
 # Convert the date to the desired format
-oil_date <- format(max(oil_prices$date), "%B %d")
+oil_date <- format(max(oil_prices$date), "%B %e")
 
 # Create the description string
 description <- paste("The price per barrel reported by the Energy Information Administration as of ", oil_date, ". Hover anywhere on the chart to see the price for any specific week.",sep="")
