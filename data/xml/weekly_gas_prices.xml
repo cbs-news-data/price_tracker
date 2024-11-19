@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chart>
   <title>Weekly gas prices</title>
-  <subtitle>Per gallon</subtitle>
+  <subtitle>U.S. average price per gallon</subtitle>
   <type>line</type>
   <x-axis> </x-axis>
   <y-axis> </y-axis>

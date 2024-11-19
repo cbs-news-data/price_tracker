@@ -37,7 +37,7 @@ gas_prices_us_only <- gas_prices %>%
 
 #variables 
 xml_title <- "Weekly gas prices"
-xml_subtitle <- "Per gallon"
+xml_subtitle <- "U.S. average price per gallon"
 xml_xaxis <- " " #labels for x axis, only fill out in necessary
 xml_yaxis <- " " #labels for x axis, only fill out in necessary
 xml_source <- "Energy Information Administration"
