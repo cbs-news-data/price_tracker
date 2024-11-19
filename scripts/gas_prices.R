@@ -73,8 +73,6 @@ write(json_string, file = "data/gas_update.json")
 
 
 
-
-
 # URL of the website containing gas price averages by state from AAA
 # url <- 'https://gasprices.aaa.com/state-gas-price-averages/'
 

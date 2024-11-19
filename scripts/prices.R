@@ -2,6 +2,8 @@ library(tidyverse)
 library(blsAPI)
 library(jsonlite)
 library(dplyr)
+library(devtools)
+
 
 # Load bls series data from data folder
 series <- read_tsv("data/ap.series.txt") %>% filter(begin_year < 2019 & end_year > 2023) %>% filter(area_code == "0000" )

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+  <title>Price of eggs</title>
+  <subtitle>Last month compared to prior years</subtitle>
+  <type>bar</type>
+  <x-axis> </x-axis>
+  <y-axis> </y-axis>
+  <dataPoint>
+    <label>2019</label>
+    <value>1.282</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>$1.28</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>2020</label>
+    <value>1.408</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>$1.41</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>2021</label>
+    <value>1.821</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>$1.82</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>2022</label>
+    <value>3.419</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>$3.42</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>2023</label>
+    <value>2.072</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>$2.07</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>2024</label>
+    <value>3.37</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>$3.37</valueToShow>
+  </dataPoint>
+  <source>Bureau of Labor Statistics</source>
+  <date>Through the end of October</date>
+  <qualifier> </qualifier>
+</chart>
