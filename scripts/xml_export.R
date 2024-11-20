@@ -14,8 +14,12 @@ date_min <- min(gas_prices$date)
 value_max <- max(gas_prices$U.S.)
 value_min <- min(gas_prices$U.S.)
 
+#get pretty min date
+date_min_pretty <- format(min(as.Date(gas_prices$date)), "%b %d, %Y")
+date_min_pretty <-str_replace_all(date_min_pretty, " 0", " ")
 #get pretty max date
 date_max_pretty <- format(max(as.Date(gas_prices$date)), "%b %d, %Y")
+date_max_pretty <-str_replace_all(date_max_pretty, " 0", " ")
 
 #simplify to "label" and "value" column + "showLabel" + showValue" + "valueToShow" column...change columns 
 gas_prices_us_only <- gas_prices %>% 
@@ -33,13 +37,16 @@ gas_prices_us_only <- gas_prices %>%
   mutate(label = str_replace_all(label, " 0", " ")) %>% 
   mutate(valueToShow = paste0(label, ": $", value))
 
+#get labels for x axis
+price_labels = paste0(date_min_pretty, ", ", date_max_pretty)
+
 #convert US data to XML
 
 #variables 
 xml_title <- "Weekly gas prices"
 xml_subtitle <- "U.S. average price per gallon"
-xml_xaxis <- " " #labels for x axis, only fill out in necessary
-xml_yaxis <- " " #labels for x axis, only fill out in necessary
+xml_xaxis <- price_labels #labels/values for x axis
+xml_yaxis <- "$1, $2, $3, $4, $5" #labels/values for y axis, only fill out in necessary
 xml_source <- "Energy Information Administration"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line" #line, bar, pie, etc
@@ -97,12 +104,19 @@ prices_pivot_eggs_only <- prices_pivot %>%
   mutate(showValue = 1) %>% 
   mutate(valueToShow = paste0("$", round(as.numeric(value), digits=2)))
 
+
+#get labels for x axis
+years <- as.character(prices_pivot_eggs_only$label)
+egg_labels = ""
+for (year in years) {egg_labels = paste0(egg_labels, ",", year)}
+egg_labels = str_replace(egg_labels, ",","")
+
 #convert data to XML
 
 #variables 
 xml_title <- "Price of eggs"
 xml_subtitle <- "Last month compared to prior years"
-xml_xaxis <- " " #labels for x axis, only fill out in necessary
+xml_xaxis <- egg_labels #labels for x axis, only fill out in necessary
 xml_yaxis <- " " #labels for x axis, only fill out in necessary
 xml_source <- "Bureau of Labor Statistics"
 xml_date <- paste0("Through the end of ", prices_pivot_month)

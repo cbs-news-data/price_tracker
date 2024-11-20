@@ -3,7 +3,7 @@
   <title>Price of eggs</title>
   <subtitle>Last month compared to prior years</subtitle>
   <type>bar</type>
-  <x-axis> </x-axis>
+  <x-axis>2019,2020,2021,2022,2023,2024</x-axis>
   <y-axis> </y-axis>
   <dataPoint>
     <label>2019</label>
