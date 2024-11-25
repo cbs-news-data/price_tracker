@@ -5,6 +5,7 @@
   <type>bar</type>
   <x-axis>2019|2020|2021|2022|2023|2024</x-axis>
   <y-axis> </y-axis>
+  <y-max>3.419</y-max>
   <dataPoint>
     <label>2019</label>
     <value>1.282</value>

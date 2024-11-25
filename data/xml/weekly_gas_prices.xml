@@ -5,6 +5,7 @@
   <type>line</type>
   <x-axis>Jan 6, 2014|Nov 18, 2024</x-axis>
   <y-axis>$1|$2|$3|$4|$5</y-axis>
+  <y-max>5.01</y-max>
   <dataPoint>
     <label>Jan 6, 2014</label>
     <value>3.33</value>
