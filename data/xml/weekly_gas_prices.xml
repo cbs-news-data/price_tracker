@@ -3,8 +3,8 @@
   <title>Weekly gas prices</title>
   <subtitle>U.S. average price per gallon</subtitle>
   <type>line</type>
-  <x-axis>Jan 6, 2014, Nov 11, 2024</x-axis>
-  <y-axis>$1, $2, $3, $4, $5</y-axis>
+  <x-axis>Jan 6, 2014|Nov 18, 2024</x-axis>
+  <y-axis>$1|$2|$3|$4|$5</y-axis>
   <dataPoint>
     <label>Jan 6, 2014</label>
     <value>3.33</value>
@@ -3970,11 +3970,18 @@
   <dataPoint>
     <label>Nov 11, 2024</label>
     <value>3.05</value>
-    <showLabel>1</showLabel>
-    <showValue>1</showValue>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
     <valueToShow>Nov 11, 2024: $3.05</valueToShow>
   </dataPoint>
+  <dataPoint>
+    <label>Nov 18, 2024</label>
+    <value>3.05</value>
+    <showLabel>1</showLabel>
+    <showValue>1</showValue>
+    <valueToShow>Nov 18, 2024: $3.05</valueToShow>
+  </dataPoint>
   <source>Energy Information Administration</source>
-  <date>As of Nov 11, 2024</date>
+  <date>As of Nov 18, 2024</date>
   <qualifier> </qualifier>
 </chart>

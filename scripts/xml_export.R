@@ -38,7 +38,7 @@ gas_prices_us_only <- gas_prices %>%
   mutate(valueToShow = paste0(label, ": $", value))
 
 #get labels for x axis
-price_labels = paste0(date_min_pretty, ", ", date_max_pretty)
+price_labels = paste0(date_min_pretty, "|", date_max_pretty)
 
 #convert US data to XML
 
@@ -46,7 +46,7 @@ price_labels = paste0(date_min_pretty, ", ", date_max_pretty)
 xml_title <- "Weekly gas prices"
 xml_subtitle <- "U.S. average price per gallon"
 xml_xaxis <- price_labels #labels/values for x axis
-xml_yaxis <- "$1, $2, $3, $4, $5" #labels/values for y axis, only fill out in necessary
+xml_yaxis <- "$1|$2|$3|$4|$5" #labels/values for y axis, only fill out in necessary
 xml_source <- "Energy Information Administration"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line" #line, bar, pie, etc
@@ -108,8 +108,8 @@ prices_pivot_eggs_only <- prices_pivot %>%
 #get labels for x axis
 years <- as.character(prices_pivot_eggs_only$label)
 egg_labels = ""
-for (year in years) {egg_labels = paste0(egg_labels, ",", year)}
-egg_labels = str_replace(egg_labels, ",","")
+for (year in years) {egg_labels = paste0(egg_labels, "|", year)}
+egg_labels = str_replace(egg_labels, "\\|","")
 
 #convert data to XML
 
