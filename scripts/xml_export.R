@@ -38,7 +38,7 @@ gas_prices_us_only <- gas_prices %>%
   mutate(valueToShow = paste0(label, ": $", value))
 
 #get labels for x axis
-price_labels = paste0(date_min_pretty, ", ", date_max_pretty)
+price_labels = paste0(date_min_pretty, "|", date_max_pretty)
 
 #convert US data to XML
 
@@ -46,11 +46,13 @@ price_labels = paste0(date_min_pretty, ", ", date_max_pretty)
 xml_title <- "Weekly gas prices"
 xml_subtitle <- "U.S. average price per gallon"
 xml_xaxis <- price_labels #labels/values for x axis
-xml_yaxis <- "$1, $2, $3, $4, $5" #labels/values for y axis, only fill out in necessary
+xml_yaxis <- "$1|$2|$3|$4|$5" #labels/values for y axis, only fill out in necessary
+xml_ymax <-  value_max #float value for max value
 xml_source <- "Energy Information Administration"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line" #line, bar, pie, etc
 xml_qualifier <- " " #one line note, if needed
+
 
 
 # Create chart node
@@ -62,6 +64,7 @@ xml_add_child(gas_prices_chart, "subtitle", xml_subtitle)
 xml_add_child(gas_prices_chart, "type", xml_type)
 xml_add_child(gas_prices_chart, "x-axis", xml_xaxis)
 xml_add_child(gas_prices_chart, "y-axis", xml_yaxis)
+xml_add_child(gas_prices_chart, "y-max", xml_ymax)
 
 # Add data rows
 for (i in 1:nrow(gas_prices_us_only)) {
@@ -108,8 +111,10 @@ prices_pivot_eggs_only <- prices_pivot %>%
 #get labels for x axis
 years <- as.character(prices_pivot_eggs_only$label)
 egg_labels = ""
-for (year in years) {egg_labels = paste0(egg_labels, ",", year)}
-egg_labels = str_replace(egg_labels, ",","")
+for (year in years) {egg_labels = paste0(egg_labels, "|", year)}
+egg_labels = str_replace(egg_labels, "\\|","")
+
+value_max <- max(prices_pivot_eggs_only$value)
 
 #convert data to XML
 
@@ -118,6 +123,7 @@ xml_title <- "Price of eggs"
 xml_subtitle <- "Last month compared to prior years"
 xml_xaxis <- egg_labels #labels for x axis, only fill out in necessary
 xml_yaxis <- " " #labels for x axis, only fill out in necessary
+xml_ymax <-  value_max #float value for max value
 xml_source <- "Bureau of Labor Statistics"
 xml_date <- paste0("Through the end of ", prices_pivot_month)
 xml_type <- "bar" #line, bar, pie, etc
@@ -133,6 +139,7 @@ xml_add_child(egg_prices_chart, "subtitle", xml_subtitle)
 xml_add_child(egg_prices_chart, "type", xml_type)
 xml_add_child(egg_prices_chart, "x-axis", xml_xaxis)
 xml_add_child(egg_prices_chart, "y-axis", xml_yaxis)
+xml_add_child(egg_prices_chart, "y-max", xml_ymax)
 
 # Add data rows
 for (i in 1:nrow(prices_pivot_eggs_only)) {
