@@ -12,8 +12,6 @@ gas_prices <- read.csv("data/gas_prices.csv")
 date_max <- max(gas_prices$date)
 date_min <- min(gas_prices$date)
 value_max <- max(gas_prices$U.S.)
-#FOR TESTING ONLY
-value_max <- 5.55
 value_min <- min(gas_prices$U.S.)
 
 #get pretty min date
@@ -28,9 +26,6 @@ gas_prices_us_only <- gas_prices %>%
   select(date, `U.S.`) %>% 
   rename(label = date,
          value = `U.S.`) %>% 
-  #this is FOR TESTING ONLY!
-  mutate(value = case_when(label == "2022-06-13" ~ 5.55,
-                           TRUE ~ value)) %>% 
   mutate(showLabel = case_when(value == value_max ~ "1",
                                value == value_min ~ "1",
                                label == date_max ~ "1",
@@ -53,8 +48,8 @@ price_labels = paste0(date_min_pretty, "|", date_max_pretty)
 xml_title <- "Weekly gas prices"
 xml_subtitle <- "U.S. average price per gallon"
 xml_xaxis <- price_labels #labels/values for x axis
-xml_yaxis <- "$1|$2|$3|$4|$5" #labels/values for y axis, only fill out in necessary
-xml_ymax <-  5 #float value for max value OF AXIS
+xml_yaxis <- "$1|$2|$3|$4|$5|$6" #labels/values for y axis, only fill out in necessary
+xml_ymax <-  6 #float value for max value OF AXIS
 xml_source <- "Energy Information Administration"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line" #line, bar, pie, etc

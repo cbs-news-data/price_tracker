@@ -4,8 +4,8 @@
   <subtitle>U.S. average price per gallon</subtitle>
   <type>line</type>
   <x-axis>Jan 6, 2014|Dec 2, 2024</x-axis>
-  <y-axis>$1|$2|$3|$4|$5</y-axis>
-  <y-max>5</y-max>
+  <y-axis>$1|$2|$3|$4|$5|$6</y-axis>
+  <y-max>6</y-max>
   <dataPoint>
     <label>Jan 6, 2014</label>
     <value>3.33</value>
@@ -3088,10 +3088,10 @@
   </dataPoint>
   <dataPoint>
     <label>Jun 13, 2022</label>
-    <value>5.55</value>
+    <value>5.01</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>$5.55</valueToShow>
+    <valueToShow>$5.01</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 20, 2022</label>
