@@ -12,6 +12,8 @@ gas_prices <- read.csv("data/gas_prices.csv")
 date_max <- max(gas_prices$date)
 date_min <- min(gas_prices$date)
 value_max <- max(gas_prices$U.S.)
+#FOR TESTING ONLY
+value_max <- 5.55
 value_min <- min(gas_prices$U.S.)
 
 #get pretty min date
@@ -26,8 +28,12 @@ gas_prices_us_only <- gas_prices %>%
   select(date, `U.S.`) %>% 
   rename(label = date,
          value = `U.S.`) %>% 
-  mutate(showLabel = case_when(label == date_max ~ "1",
-                               label == date_min ~ "1",
+  #this is FOR TESTING ONLY!
+  mutate(value = case_when(label == "2022-06-13" ~ 5.55,
+                           TRUE ~ value)) %>% 
+  mutate(showLabel = case_when(value == value_max ~ "1",
+                               value == value_min ~ "1",
+                               label == date_max ~ "1",
                                TRUE ~ "0")) %>% 
   mutate(showValue = case_when(value == value_max ~ "1",
                                value == value_min ~ "1",
@@ -36,6 +42,7 @@ gas_prices_us_only <- gas_prices %>%
   mutate(label = format(as.Date(label), "%b %d, %Y")) %>% 
   mutate(label = str_replace_all(label, " 0", " ")) %>% 
   mutate(valueToShow = paste0("$", value))
+ 
 
 #get labels for x axis
 price_labels = paste0(date_min_pretty, "|", date_max_pretty)

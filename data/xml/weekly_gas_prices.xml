@@ -5,11 +5,11 @@
   <type>line</type>
   <x-axis>Jan 6, 2014|Dec 2, 2024</x-axis>
   <y-axis>$1|$2|$3|$4|$5</y-axis>
-  <y-max>5.01</y-max>
+  <y-max>5.55</y-max>
   <dataPoint>
     <label>Jan 6, 2014</label>
     <value>3.33</value>
-    <showLabel>1</showLabel>
+    <showLabel>0</showLabel>
     <showValue>0</showValue>
     <valueToShow>$3.33</valueToShow>
   </dataPoint>
@@ -779,7 +779,7 @@
   <dataPoint>
     <label>Feb 15, 2016</label>
     <value>1.72</value>
-    <showLabel>0</showLabel>
+    <showLabel>1</showLabel>
     <showValue>1</showValue>
     <valueToShow>$1.72</valueToShow>
   </dataPoint>
@@ -3088,10 +3088,10 @@
   </dataPoint>
   <dataPoint>
     <label>Jun 13, 2022</label>
-    <value>5.01</value>
-    <showLabel>0</showLabel>
+    <value>5.55</value>
+    <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>$5.01</valueToShow>
+    <valueToShow>$5.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 20, 2022</label>
