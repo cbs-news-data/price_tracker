@@ -54,7 +54,7 @@ xml_title <- "Weekly gas prices"
 xml_subtitle <- "U.S. average price per gallon"
 xml_xaxis <- price_labels #labels/values for x axis
 xml_yaxis <- "$1|$2|$3|$4|$5" #labels/values for y axis, only fill out in necessary
-xml_ymax <-  value_max #float value for max value
+xml_ymax <-  5 #float value for max value OF AXIS
 xml_source <- "Energy Information Administration"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line" #line, bar, pie, etc
