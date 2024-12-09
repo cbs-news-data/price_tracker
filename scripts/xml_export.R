@@ -35,7 +35,7 @@ gas_prices_us_only <- gas_prices %>%
                                TRUE ~ "0")) %>% 
   mutate(label = format(as.Date(label), "%b %d, %Y")) %>% 
   mutate(label = str_replace_all(label, " 0", " ")) %>% 
-  mutate(valueToShow = paste0(label, ": $", value))
+  mutate(valueToShow = paste0("$", value))
 
 #get labels for x axis
 price_labels = paste0(date_min_pretty, "|", date_max_pretty)

@@ -3,7 +3,7 @@
   <title>Weekly gas prices</title>
   <subtitle>U.S. average price per gallon</subtitle>
   <type>line</type>
-  <x-axis>Jan 6, 2014|Nov 18, 2024</x-axis>
+  <x-axis>Jan 6, 2014|Dec 2, 2024</x-axis>
   <y-axis>$1|$2|$3|$4|$5</y-axis>
   <y-max>5.01</y-max>
   <dataPoint>
@@ -11,3978 +11,3992 @@
     <value>3.33</value>
     <showLabel>1</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 6, 2014: $3.33</valueToShow>
+    <valueToShow>$3.33</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 13, 2014</label>
     <value>3.33</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 13, 2014: $3.33</valueToShow>
+    <valueToShow>$3.33</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 20, 2014</label>
     <value>3.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 20, 2014: $3.3</valueToShow>
+    <valueToShow>$3.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 27, 2014</label>
     <value>3.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 27, 2014: $3.3</valueToShow>
+    <valueToShow>$3.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 3, 2014</label>
     <value>3.29</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 3, 2014: $3.29</valueToShow>
+    <valueToShow>$3.29</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 10, 2014</label>
     <value>3.31</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 10, 2014: $3.31</valueToShow>
+    <valueToShow>$3.31</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 17, 2014</label>
     <value>3.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 17, 2014: $3.38</valueToShow>
+    <valueToShow>$3.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 24, 2014</label>
     <value>3.44</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 24, 2014: $3.44</valueToShow>
+    <valueToShow>$3.44</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 3, 2014</label>
     <value>3.48</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 3, 2014: $3.48</valueToShow>
+    <valueToShow>$3.48</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 10, 2014</label>
     <value>3.51</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 10, 2014: $3.51</valueToShow>
+    <valueToShow>$3.51</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 17, 2014</label>
     <value>3.55</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 17, 2014: $3.55</valueToShow>
+    <valueToShow>$3.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 24, 2014</label>
     <value>3.55</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 24, 2014: $3.55</valueToShow>
+    <valueToShow>$3.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 31, 2014</label>
     <value>3.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 31, 2014: $3.58</valueToShow>
+    <valueToShow>$3.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 7, 2014</label>
     <value>3.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 7, 2014: $3.6</valueToShow>
+    <valueToShow>$3.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 14, 2014</label>
     <value>3.65</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 14, 2014: $3.65</valueToShow>
+    <valueToShow>$3.65</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 21, 2014</label>
     <value>3.68</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 21, 2014: $3.68</valueToShow>
+    <valueToShow>$3.68</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 28, 2014</label>
     <value>3.71</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 28, 2014: $3.71</valueToShow>
+    <valueToShow>$3.71</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 5, 2014</label>
     <value>3.68</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 5, 2014: $3.68</valueToShow>
+    <valueToShow>$3.68</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 12, 2014</label>
     <value>3.67</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 12, 2014: $3.67</valueToShow>
+    <valueToShow>$3.67</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 19, 2014</label>
     <value>3.66</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 19, 2014: $3.66</valueToShow>
+    <valueToShow>$3.66</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 26, 2014</label>
     <value>3.67</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 26, 2014: $3.67</valueToShow>
+    <valueToShow>$3.67</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 2, 2014</label>
     <value>3.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 2, 2014: $3.69</valueToShow>
+    <valueToShow>$3.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 9, 2014</label>
     <value>3.67</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 9, 2014: $3.67</valueToShow>
+    <valueToShow>$3.67</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 16, 2014</label>
     <value>3.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 16, 2014: $3.69</valueToShow>
+    <valueToShow>$3.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 23, 2014</label>
     <value>3.7</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 23, 2014: $3.7</valueToShow>
+    <valueToShow>$3.7</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 30, 2014</label>
     <value>3.7</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 30, 2014: $3.7</valueToShow>
+    <valueToShow>$3.7</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 7, 2014</label>
     <value>3.68</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 7, 2014: $3.68</valueToShow>
+    <valueToShow>$3.68</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 14, 2014</label>
     <value>3.63</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 14, 2014: $3.63</valueToShow>
+    <valueToShow>$3.63</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 21, 2014</label>
     <value>3.59</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 21, 2014: $3.59</valueToShow>
+    <valueToShow>$3.59</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 28, 2014</label>
     <value>3.54</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 28, 2014: $3.54</valueToShow>
+    <valueToShow>$3.54</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 4, 2014</label>
     <value>3.52</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 4, 2014: $3.52</valueToShow>
+    <valueToShow>$3.52</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 11, 2014</label>
     <value>3.5</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 11, 2014: $3.5</valueToShow>
+    <valueToShow>$3.5</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 18, 2014</label>
     <value>3.47</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 18, 2014: $3.47</valueToShow>
+    <valueToShow>$3.47</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 25, 2014</label>
     <value>3.45</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 25, 2014: $3.45</valueToShow>
+    <valueToShow>$3.45</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 1, 2014</label>
     <value>3.46</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 1, 2014: $3.46</valueToShow>
+    <valueToShow>$3.46</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 8, 2014</label>
     <value>3.46</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 8, 2014: $3.46</valueToShow>
+    <valueToShow>$3.46</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 15, 2014</label>
     <value>3.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 15, 2014: $3.41</valueToShow>
+    <valueToShow>$3.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 22, 2014</label>
     <value>3.35</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 22, 2014: $3.35</valueToShow>
+    <valueToShow>$3.35</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 29, 2014</label>
     <value>3.35</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 29, 2014: $3.35</valueToShow>
+    <valueToShow>$3.35</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 6, 2014</label>
     <value>3.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 6, 2014: $3.3</valueToShow>
+    <valueToShow>$3.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 13, 2014</label>
     <value>3.21</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 13, 2014: $3.21</valueToShow>
+    <valueToShow>$3.21</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 20, 2014</label>
     <value>3.12</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 20, 2014: $3.12</valueToShow>
+    <valueToShow>$3.12</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 27, 2014</label>
     <value>3.06</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 27, 2014: $3.06</valueToShow>
+    <valueToShow>$3.06</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 3, 2014</label>
     <value>2.99</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 3, 2014: $2.99</valueToShow>
+    <valueToShow>$2.99</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 10, 2014</label>
     <value>2.94</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 10, 2014: $2.94</valueToShow>
+    <valueToShow>$2.94</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 17, 2014</label>
     <value>2.89</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 17, 2014: $2.89</valueToShow>
+    <valueToShow>$2.89</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 24, 2014</label>
     <value>2.82</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 24, 2014: $2.82</valueToShow>
+    <valueToShow>$2.82</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 1, 2014</label>
     <value>2.78</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 1, 2014: $2.78</valueToShow>
+    <valueToShow>$2.78</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 8, 2014</label>
     <value>2.68</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 8, 2014: $2.68</valueToShow>
+    <valueToShow>$2.68</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 15, 2014</label>
     <value>2.55</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 15, 2014: $2.55</valueToShow>
+    <valueToShow>$2.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 22, 2014</label>
     <value>2.4</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 22, 2014: $2.4</valueToShow>
+    <valueToShow>$2.4</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 29, 2014</label>
     <value>2.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 29, 2014: $2.3</valueToShow>
+    <valueToShow>$2.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 5, 2015</label>
     <value>2.21</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 5, 2015: $2.21</valueToShow>
+    <valueToShow>$2.21</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 12, 2015</label>
     <value>2.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 12, 2015: $2.14</valueToShow>
+    <valueToShow>$2.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 19, 2015</label>
     <value>2.07</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 19, 2015: $2.07</valueToShow>
+    <valueToShow>$2.07</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 26, 2015</label>
     <value>2.04</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 26, 2015: $2.04</valueToShow>
+    <valueToShow>$2.04</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 2, 2015</label>
     <value>2.07</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 2, 2015: $2.07</valueToShow>
+    <valueToShow>$2.07</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 9, 2015</label>
     <value>2.19</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 9, 2015: $2.19</valueToShow>
+    <valueToShow>$2.19</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 16, 2015</label>
     <value>2.27</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 16, 2015: $2.27</valueToShow>
+    <valueToShow>$2.27</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 23, 2015</label>
     <value>2.33</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 23, 2015: $2.33</valueToShow>
+    <valueToShow>$2.33</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 2, 2015</label>
     <value>2.47</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 2, 2015: $2.47</valueToShow>
+    <valueToShow>$2.47</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 9, 2015</label>
     <value>2.49</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 9, 2015: $2.49</valueToShow>
+    <valueToShow>$2.49</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 16, 2015</label>
     <value>2.45</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 16, 2015: $2.45</valueToShow>
+    <valueToShow>$2.45</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 23, 2015</label>
     <value>2.46</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 23, 2015: $2.46</valueToShow>
+    <valueToShow>$2.46</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 30, 2015</label>
     <value>2.45</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 30, 2015: $2.45</valueToShow>
+    <valueToShow>$2.45</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 6, 2015</label>
     <value>2.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 6, 2015: $2.41</valueToShow>
+    <valueToShow>$2.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 13, 2015</label>
     <value>2.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 13, 2015: $2.41</valueToShow>
+    <valueToShow>$2.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 20, 2015</label>
     <value>2.48</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 20, 2015: $2.48</valueToShow>
+    <valueToShow>$2.48</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 27, 2015</label>
     <value>2.57</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 27, 2015: $2.57</valueToShow>
+    <valueToShow>$2.57</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 4, 2015</label>
     <value>2.66</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 4, 2015: $2.66</valueToShow>
+    <valueToShow>$2.66</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 11, 2015</label>
     <value>2.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 11, 2015: $2.69</valueToShow>
+    <valueToShow>$2.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 18, 2015</label>
     <value>2.74</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 18, 2015: $2.74</valueToShow>
+    <valueToShow>$2.74</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 25, 2015</label>
     <value>2.77</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 25, 2015: $2.77</valueToShow>
+    <valueToShow>$2.77</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 1, 2015</label>
     <value>2.78</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 1, 2015: $2.78</valueToShow>
+    <valueToShow>$2.78</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 8, 2015</label>
     <value>2.78</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 8, 2015: $2.78</valueToShow>
+    <valueToShow>$2.78</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 15, 2015</label>
     <value>2.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 15, 2015: $2.84</valueToShow>
+    <valueToShow>$2.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 22, 2015</label>
     <value>2.81</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 22, 2015: $2.81</valueToShow>
+    <valueToShow>$2.81</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 29, 2015</label>
     <value>2.8</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 29, 2015: $2.8</valueToShow>
+    <valueToShow>$2.8</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 6, 2015</label>
     <value>2.79</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 6, 2015: $2.79</valueToShow>
+    <valueToShow>$2.79</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 13, 2015</label>
     <value>2.83</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 13, 2015: $2.83</valueToShow>
+    <valueToShow>$2.83</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 20, 2015</label>
     <value>2.8</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 20, 2015: $2.8</valueToShow>
+    <valueToShow>$2.8</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 27, 2015</label>
     <value>2.74</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 27, 2015: $2.74</valueToShow>
+    <valueToShow>$2.74</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 3, 2015</label>
     <value>2.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 3, 2015: $2.69</valueToShow>
+    <valueToShow>$2.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 10, 2015</label>
     <value>2.63</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 10, 2015: $2.63</valueToShow>
+    <valueToShow>$2.63</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 17, 2015</label>
     <value>2.72</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 17, 2015: $2.72</valueToShow>
+    <valueToShow>$2.72</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 24, 2015</label>
     <value>2.64</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 24, 2015: $2.64</valueToShow>
+    <valueToShow>$2.64</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 31, 2015</label>
     <value>2.51</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 31, 2015: $2.51</valueToShow>
+    <valueToShow>$2.51</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 7, 2015</label>
     <value>2.44</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 7, 2015: $2.44</valueToShow>
+    <valueToShow>$2.44</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 14, 2015</label>
     <value>2.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 14, 2015: $2.38</valueToShow>
+    <valueToShow>$2.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 21, 2015</label>
     <value>2.33</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 21, 2015: $2.33</valueToShow>
+    <valueToShow>$2.33</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 28, 2015</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 28, 2015: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 5, 2015</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 5, 2015: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 12, 2015</label>
     <value>2.34</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 12, 2015: $2.34</valueToShow>
+    <valueToShow>$2.34</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 19, 2015</label>
     <value>2.28</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 19, 2015: $2.28</valueToShow>
+    <valueToShow>$2.28</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 26, 2015</label>
     <value>2.23</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 26, 2015: $2.23</valueToShow>
+    <valueToShow>$2.23</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 2, 2015</label>
     <value>2.22</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 2, 2015: $2.22</valueToShow>
+    <valueToShow>$2.22</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 9, 2015</label>
     <value>2.23</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 9, 2015: $2.23</valueToShow>
+    <valueToShow>$2.23</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 16, 2015</label>
     <value>2.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 16, 2015: $2.18</valueToShow>
+    <valueToShow>$2.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 23, 2015</label>
     <value>2.09</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 23, 2015: $2.09</valueToShow>
+    <valueToShow>$2.09</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 30, 2015</label>
     <value>2.06</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 30, 2015: $2.06</valueToShow>
+    <valueToShow>$2.06</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 7, 2015</label>
     <value>2.05</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 7, 2015: $2.05</valueToShow>
+    <valueToShow>$2.05</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 14, 2015</label>
     <value>2.04</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 14, 2015: $2.04</valueToShow>
+    <valueToShow>$2.04</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 21, 2015</label>
     <value>2.03</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 21, 2015: $2.03</valueToShow>
+    <valueToShow>$2.03</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 28, 2015</label>
     <value>2.03</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 28, 2015: $2.03</valueToShow>
+    <valueToShow>$2.03</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 4, 2016</label>
     <value>2.03</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 4, 2016: $2.03</valueToShow>
+    <valueToShow>$2.03</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 11, 2016</label>
     <value>2</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 11, 2016: $2</valueToShow>
+    <valueToShow>$2</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 18, 2016</label>
     <value>1.91</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 18, 2016: $1.91</valueToShow>
+    <valueToShow>$1.91</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 25, 2016</label>
     <value>1.86</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 25, 2016: $1.86</valueToShow>
+    <valueToShow>$1.86</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 1, 2016</label>
     <value>1.82</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 1, 2016: $1.82</valueToShow>
+    <valueToShow>$1.82</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 8, 2016</label>
     <value>1.76</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 8, 2016: $1.76</valueToShow>
+    <valueToShow>$1.76</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 15, 2016</label>
     <value>1.72</value>
     <showLabel>0</showLabel>
     <showValue>1</showValue>
-    <valueToShow>Feb 15, 2016: $1.72</valueToShow>
+    <valueToShow>$1.72</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 22, 2016</label>
     <value>1.73</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 22, 2016: $1.73</valueToShow>
+    <valueToShow>$1.73</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 29, 2016</label>
     <value>1.78</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 29, 2016: $1.78</valueToShow>
+    <valueToShow>$1.78</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 7, 2016</label>
     <value>1.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 7, 2016: $1.84</valueToShow>
+    <valueToShow>$1.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 14, 2016</label>
     <value>1.96</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 14, 2016: $1.96</valueToShow>
+    <valueToShow>$1.96</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 21, 2016</label>
     <value>2.01</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 21, 2016: $2.01</valueToShow>
+    <valueToShow>$2.01</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 28, 2016</label>
     <value>2.07</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 28, 2016: $2.07</valueToShow>
+    <valueToShow>$2.07</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 4, 2016</label>
     <value>2.08</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 4, 2016: $2.08</valueToShow>
+    <valueToShow>$2.08</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 11, 2016</label>
     <value>2.07</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 11, 2016: $2.07</valueToShow>
+    <valueToShow>$2.07</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 18, 2016</label>
     <value>2.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 18, 2016: $2.14</valueToShow>
+    <valueToShow>$2.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 25, 2016</label>
     <value>2.16</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 25, 2016: $2.16</valueToShow>
+    <valueToShow>$2.16</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 2, 2016</label>
     <value>2.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 2, 2016: $2.24</valueToShow>
+    <valueToShow>$2.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 9, 2016</label>
     <value>2.22</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 9, 2016: $2.22</valueToShow>
+    <valueToShow>$2.22</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 16, 2016</label>
     <value>2.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 16, 2016: $2.24</valueToShow>
+    <valueToShow>$2.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 23, 2016</label>
     <value>2.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 23, 2016: $2.3</valueToShow>
+    <valueToShow>$2.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 30, 2016</label>
     <value>2.34</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 30, 2016: $2.34</valueToShow>
+    <valueToShow>$2.34</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 6, 2016</label>
     <value>2.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 6, 2016: $2.38</valueToShow>
+    <valueToShow>$2.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 13, 2016</label>
     <value>2.4</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 13, 2016: $2.4</valueToShow>
+    <valueToShow>$2.4</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 20, 2016</label>
     <value>2.35</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 20, 2016: $2.35</valueToShow>
+    <valueToShow>$2.35</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 27, 2016</label>
     <value>2.33</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 27, 2016: $2.33</valueToShow>
+    <valueToShow>$2.33</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 4, 2016</label>
     <value>2.29</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 4, 2016: $2.29</valueToShow>
+    <valueToShow>$2.29</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 11, 2016</label>
     <value>2.25</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 11, 2016: $2.25</valueToShow>
+    <valueToShow>$2.25</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 18, 2016</label>
     <value>2.23</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 18, 2016: $2.23</valueToShow>
+    <valueToShow>$2.23</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 25, 2016</label>
     <value>2.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 25, 2016: $2.18</valueToShow>
+    <valueToShow>$2.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 1, 2016</label>
     <value>2.16</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 1, 2016: $2.16</valueToShow>
+    <valueToShow>$2.16</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 8, 2016</label>
     <value>2.15</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 8, 2016: $2.15</valueToShow>
+    <valueToShow>$2.15</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 15, 2016</label>
     <value>2.15</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 15, 2016: $2.15</valueToShow>
+    <valueToShow>$2.15</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 22, 2016</label>
     <value>2.19</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 22, 2016: $2.19</valueToShow>
+    <valueToShow>$2.19</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 29, 2016</label>
     <value>2.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 29, 2016: $2.24</valueToShow>
+    <valueToShow>$2.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 5, 2016</label>
     <value>2.22</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 5, 2016: $2.22</valueToShow>
+    <valueToShow>$2.22</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 12, 2016</label>
     <value>2.2</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 12, 2016: $2.2</valueToShow>
+    <valueToShow>$2.2</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 19, 2016</label>
     <value>2.22</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 19, 2016: $2.22</valueToShow>
+    <valueToShow>$2.22</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 26, 2016</label>
     <value>2.22</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 26, 2016: $2.22</valueToShow>
+    <valueToShow>$2.22</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 3, 2016</label>
     <value>2.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 3, 2016: $2.24</valueToShow>
+    <valueToShow>$2.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 10, 2016</label>
     <value>2.27</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 10, 2016: $2.27</valueToShow>
+    <valueToShow>$2.27</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 17, 2016</label>
     <value>2.26</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 17, 2016: $2.26</valueToShow>
+    <valueToShow>$2.26</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 24, 2016</label>
     <value>2.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 24, 2016: $2.24</valueToShow>
+    <valueToShow>$2.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 31, 2016</label>
     <value>2.23</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 31, 2016: $2.23</valueToShow>
+    <valueToShow>$2.23</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 7, 2016</label>
     <value>2.23</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 7, 2016: $2.23</valueToShow>
+    <valueToShow>$2.23</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 14, 2016</label>
     <value>2.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 14, 2016: $2.18</valueToShow>
+    <valueToShow>$2.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 21, 2016</label>
     <value>2.15</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 21, 2016: $2.15</valueToShow>
+    <valueToShow>$2.15</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 28, 2016</label>
     <value>2.15</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 28, 2016: $2.15</valueToShow>
+    <valueToShow>$2.15</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 5, 2016</label>
     <value>2.21</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 5, 2016: $2.21</valueToShow>
+    <valueToShow>$2.21</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 12, 2016</label>
     <value>2.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 12, 2016: $2.24</valueToShow>
+    <valueToShow>$2.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 19, 2016</label>
     <value>2.26</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 19, 2016: $2.26</valueToShow>
+    <valueToShow>$2.26</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 26, 2016</label>
     <value>2.31</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 26, 2016: $2.31</valueToShow>
+    <valueToShow>$2.31</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 2, 2017</label>
     <value>2.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 2, 2017: $2.38</valueToShow>
+    <valueToShow>$2.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 9, 2017</label>
     <value>2.39</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 9, 2017: $2.39</valueToShow>
+    <valueToShow>$2.39</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 16, 2017</label>
     <value>2.36</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 16, 2017: $2.36</valueToShow>
+    <valueToShow>$2.36</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 23, 2017</label>
     <value>2.33</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 23, 2017: $2.33</valueToShow>
+    <valueToShow>$2.33</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 30, 2017</label>
     <value>2.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 30, 2017: $2.3</valueToShow>
+    <valueToShow>$2.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 6, 2017</label>
     <value>2.29</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 6, 2017: $2.29</valueToShow>
+    <valueToShow>$2.29</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 13, 2017</label>
     <value>2.31</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 13, 2017: $2.31</valueToShow>
+    <valueToShow>$2.31</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 20, 2017</label>
     <value>2.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 20, 2017: $2.3</valueToShow>
+    <valueToShow>$2.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 27, 2017</label>
     <value>2.31</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 27, 2017: $2.31</valueToShow>
+    <valueToShow>$2.31</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 6, 2017</label>
     <value>2.34</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 6, 2017: $2.34</valueToShow>
+    <valueToShow>$2.34</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 13, 2017</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 13, 2017: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 20, 2017</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 20, 2017: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 27, 2017</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 27, 2017: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 3, 2017</label>
     <value>2.36</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 3, 2017: $2.36</valueToShow>
+    <valueToShow>$2.36</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 10, 2017</label>
     <value>2.42</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 10, 2017: $2.42</valueToShow>
+    <valueToShow>$2.42</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 17, 2017</label>
     <value>2.44</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 17, 2017: $2.44</valueToShow>
+    <valueToShow>$2.44</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 24, 2017</label>
     <value>2.45</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 24, 2017: $2.45</valueToShow>
+    <valueToShow>$2.45</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 1, 2017</label>
     <value>2.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 1, 2017: $2.41</valueToShow>
+    <valueToShow>$2.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 8, 2017</label>
     <value>2.37</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 8, 2017: $2.37</valueToShow>
+    <valueToShow>$2.37</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 15, 2017</label>
     <value>2.37</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 15, 2017: $2.37</valueToShow>
+    <valueToShow>$2.37</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 22, 2017</label>
     <value>2.4</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 22, 2017: $2.4</valueToShow>
+    <valueToShow>$2.4</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 29, 2017</label>
     <value>2.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 29, 2017: $2.41</valueToShow>
+    <valueToShow>$2.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 5, 2017</label>
     <value>2.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 5, 2017: $2.41</valueToShow>
+    <valueToShow>$2.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 12, 2017</label>
     <value>2.37</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 12, 2017: $2.37</valueToShow>
+    <valueToShow>$2.37</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 19, 2017</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 19, 2017: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 26, 2017</label>
     <value>2.29</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 26, 2017: $2.29</valueToShow>
+    <valueToShow>$2.29</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 3, 2017</label>
     <value>2.26</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 3, 2017: $2.26</valueToShow>
+    <valueToShow>$2.26</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 10, 2017</label>
     <value>2.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 10, 2017: $2.3</valueToShow>
+    <valueToShow>$2.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 17, 2017</label>
     <value>2.28</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 17, 2017: $2.28</valueToShow>
+    <valueToShow>$2.28</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 24, 2017</label>
     <value>2.31</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 24, 2017: $2.31</valueToShow>
+    <valueToShow>$2.31</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 31, 2017</label>
     <value>2.35</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 31, 2017: $2.35</valueToShow>
+    <valueToShow>$2.35</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 7, 2017</label>
     <value>2.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 7, 2017: $2.38</valueToShow>
+    <valueToShow>$2.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 14, 2017</label>
     <value>2.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 14, 2017: $2.38</valueToShow>
+    <valueToShow>$2.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 21, 2017</label>
     <value>2.36</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 21, 2017: $2.36</valueToShow>
+    <valueToShow>$2.36</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 28, 2017</label>
     <value>2.4</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 28, 2017: $2.4</valueToShow>
+    <valueToShow>$2.4</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 4, 2017</label>
     <value>2.68</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 4, 2017: $2.68</valueToShow>
+    <valueToShow>$2.68</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 11, 2017</label>
     <value>2.68</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 11, 2017: $2.68</valueToShow>
+    <valueToShow>$2.68</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 18, 2017</label>
     <value>2.63</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 18, 2017: $2.63</valueToShow>
+    <valueToShow>$2.63</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 25, 2017</label>
     <value>2.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 25, 2017: $2.58</valueToShow>
+    <valueToShow>$2.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 2, 2017</label>
     <value>2.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 2, 2017: $2.56</valueToShow>
+    <valueToShow>$2.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 9, 2017</label>
     <value>2.5</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 9, 2017: $2.5</valueToShow>
+    <valueToShow>$2.5</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 16, 2017</label>
     <value>2.49</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 16, 2017: $2.49</valueToShow>
+    <valueToShow>$2.49</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 23, 2017</label>
     <value>2.48</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 23, 2017: $2.48</valueToShow>
+    <valueToShow>$2.48</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 30, 2017</label>
     <value>2.49</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 30, 2017: $2.49</valueToShow>
+    <valueToShow>$2.49</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 6, 2017</label>
     <value>2.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 6, 2017: $2.56</valueToShow>
+    <valueToShow>$2.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 13, 2017</label>
     <value>2.59</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 13, 2017: $2.59</valueToShow>
+    <valueToShow>$2.59</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 20, 2017</label>
     <value>2.57</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 20, 2017: $2.57</valueToShow>
+    <valueToShow>$2.57</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 27, 2017</label>
     <value>2.53</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 27, 2017: $2.53</valueToShow>
+    <valueToShow>$2.53</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 4, 2017</label>
     <value>2.5</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 4, 2017: $2.5</valueToShow>
+    <valueToShow>$2.5</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 11, 2017</label>
     <value>2.48</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 11, 2017: $2.48</valueToShow>
+    <valueToShow>$2.48</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 18, 2017</label>
     <value>2.45</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 18, 2017: $2.45</valueToShow>
+    <valueToShow>$2.45</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 25, 2017</label>
     <value>2.47</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 25, 2017: $2.47</valueToShow>
+    <valueToShow>$2.47</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 1, 2018</label>
     <value>2.52</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 1, 2018: $2.52</valueToShow>
+    <valueToShow>$2.52</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 8, 2018</label>
     <value>2.52</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 8, 2018: $2.52</valueToShow>
+    <valueToShow>$2.52</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 15, 2018</label>
     <value>2.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 15, 2018: $2.56</valueToShow>
+    <valueToShow>$2.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 22, 2018</label>
     <value>2.57</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 22, 2018: $2.57</valueToShow>
+    <valueToShow>$2.57</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 29, 2018</label>
     <value>2.61</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 29, 2018: $2.61</valueToShow>
+    <valueToShow>$2.61</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 5, 2018</label>
     <value>2.64</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 5, 2018: $2.64</valueToShow>
+    <valueToShow>$2.64</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 12, 2018</label>
     <value>2.61</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 12, 2018: $2.61</valueToShow>
+    <valueToShow>$2.61</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 19, 2018</label>
     <value>2.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 19, 2018: $2.56</valueToShow>
+    <valueToShow>$2.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 26, 2018</label>
     <value>2.55</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 26, 2018: $2.55</valueToShow>
+    <valueToShow>$2.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 5, 2018</label>
     <value>2.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 5, 2018: $2.56</valueToShow>
+    <valueToShow>$2.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 12, 2018</label>
     <value>2.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 12, 2018: $2.56</valueToShow>
+    <valueToShow>$2.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 19, 2018</label>
     <value>2.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 19, 2018: $2.6</valueToShow>
+    <valueToShow>$2.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 26, 2018</label>
     <value>2.65</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 26, 2018: $2.65</valueToShow>
+    <valueToShow>$2.65</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 2, 2018</label>
     <value>2.7</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 2, 2018: $2.7</valueToShow>
+    <valueToShow>$2.7</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 9, 2018</label>
     <value>2.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 9, 2018: $2.69</valueToShow>
+    <valueToShow>$2.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 16, 2018</label>
     <value>2.75</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 16, 2018: $2.75</valueToShow>
+    <valueToShow>$2.75</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 23, 2018</label>
     <value>2.8</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 23, 2018: $2.8</valueToShow>
+    <valueToShow>$2.8</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 30, 2018</label>
     <value>2.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 30, 2018: $2.85</valueToShow>
+    <valueToShow>$2.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 7, 2018</label>
     <value>2.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 7, 2018: $2.85</valueToShow>
+    <valueToShow>$2.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 14, 2018</label>
     <value>2.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 14, 2018: $2.87</valueToShow>
+    <valueToShow>$2.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 21, 2018</label>
     <value>2.92</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 21, 2018: $2.92</valueToShow>
+    <valueToShow>$2.92</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 28, 2018</label>
     <value>2.96</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 28, 2018: $2.96</valueToShow>
+    <valueToShow>$2.96</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 4, 2018</label>
     <value>2.94</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 4, 2018: $2.94</valueToShow>
+    <valueToShow>$2.94</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 11, 2018</label>
     <value>2.91</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 11, 2018: $2.91</valueToShow>
+    <valueToShow>$2.91</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 18, 2018</label>
     <value>2.88</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 18, 2018: $2.88</valueToShow>
+    <valueToShow>$2.88</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 25, 2018</label>
     <value>2.83</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 25, 2018: $2.83</valueToShow>
+    <valueToShow>$2.83</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 2, 2018</label>
     <value>2.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 2, 2018: $2.84</valueToShow>
+    <valueToShow>$2.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 9, 2018</label>
     <value>2.86</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 9, 2018: $2.86</valueToShow>
+    <valueToShow>$2.86</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 16, 2018</label>
     <value>2.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 16, 2018: $2.87</valueToShow>
+    <valueToShow>$2.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 23, 2018</label>
     <value>2.83</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 23, 2018: $2.83</valueToShow>
+    <valueToShow>$2.83</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 30, 2018</label>
     <value>2.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 30, 2018: $2.85</valueToShow>
+    <valueToShow>$2.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 6, 2018</label>
     <value>2.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 6, 2018: $2.85</valueToShow>
+    <valueToShow>$2.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 13, 2018</label>
     <value>2.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 13, 2018: $2.84</valueToShow>
+    <valueToShow>$2.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 20, 2018</label>
     <value>2.82</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 20, 2018: $2.82</valueToShow>
+    <valueToShow>$2.82</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 27, 2018</label>
     <value>2.83</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 27, 2018: $2.83</valueToShow>
+    <valueToShow>$2.83</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 3, 2018</label>
     <value>2.82</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 3, 2018: $2.82</valueToShow>
+    <valueToShow>$2.82</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 10, 2018</label>
     <value>2.83</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 10, 2018: $2.83</valueToShow>
+    <valueToShow>$2.83</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 17, 2018</label>
     <value>2.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 17, 2018: $2.84</valueToShow>
+    <valueToShow>$2.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 24, 2018</label>
     <value>2.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 24, 2018: $2.84</valueToShow>
+    <valueToShow>$2.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 1, 2018</label>
     <value>2.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 1, 2018: $2.87</valueToShow>
+    <valueToShow>$2.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 8, 2018</label>
     <value>2.9</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 8, 2018: $2.9</valueToShow>
+    <valueToShow>$2.9</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 15, 2018</label>
     <value>2.88</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 15, 2018: $2.88</valueToShow>
+    <valueToShow>$2.88</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 22, 2018</label>
     <value>2.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 22, 2018: $2.84</valueToShow>
+    <valueToShow>$2.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 29, 2018</label>
     <value>2.81</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 29, 2018: $2.81</valueToShow>
+    <valueToShow>$2.81</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 5, 2018</label>
     <value>2.75</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 5, 2018: $2.75</valueToShow>
+    <valueToShow>$2.75</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 12, 2018</label>
     <value>2.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 12, 2018: $2.69</valueToShow>
+    <valueToShow>$2.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 19, 2018</label>
     <value>2.61</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 19, 2018: $2.61</valueToShow>
+    <valueToShow>$2.61</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 26, 2018</label>
     <value>2.54</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 26, 2018: $2.54</valueToShow>
+    <valueToShow>$2.54</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 3, 2018</label>
     <value>2.45</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 3, 2018: $2.45</valueToShow>
+    <valueToShow>$2.45</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 10, 2018</label>
     <value>2.42</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 10, 2018: $2.42</valueToShow>
+    <valueToShow>$2.42</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 17, 2018</label>
     <value>2.37</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 17, 2018: $2.37</valueToShow>
+    <valueToShow>$2.37</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 24, 2018</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 24, 2018: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 31, 2018</label>
     <value>2.27</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 31, 2018: $2.27</valueToShow>
+    <valueToShow>$2.27</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 7, 2019</label>
     <value>2.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 7, 2019: $2.24</valueToShow>
+    <valueToShow>$2.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 14, 2019</label>
     <value>2.25</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 14, 2019: $2.25</valueToShow>
+    <valueToShow>$2.25</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 21, 2019</label>
     <value>2.25</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 21, 2019: $2.25</valueToShow>
+    <valueToShow>$2.25</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 28, 2019</label>
     <value>2.26</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 28, 2019: $2.26</valueToShow>
+    <valueToShow>$2.26</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 4, 2019</label>
     <value>2.25</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 4, 2019: $2.25</valueToShow>
+    <valueToShow>$2.25</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 11, 2019</label>
     <value>2.28</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 11, 2019: $2.28</valueToShow>
+    <valueToShow>$2.28</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 18, 2019</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 18, 2019: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 25, 2019</label>
     <value>2.39</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 25, 2019: $2.39</valueToShow>
+    <valueToShow>$2.39</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 4, 2019</label>
     <value>2.42</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 4, 2019: $2.42</valueToShow>
+    <valueToShow>$2.42</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 11, 2019</label>
     <value>2.47</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 11, 2019: $2.47</valueToShow>
+    <valueToShow>$2.47</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 18, 2019</label>
     <value>2.55</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 18, 2019: $2.55</valueToShow>
+    <valueToShow>$2.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 25, 2019</label>
     <value>2.62</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 25, 2019: $2.62</valueToShow>
+    <valueToShow>$2.62</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 1, 2019</label>
     <value>2.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 1, 2019: $2.69</valueToShow>
+    <valueToShow>$2.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 8, 2019</label>
     <value>2.74</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 8, 2019: $2.74</valueToShow>
+    <valueToShow>$2.74</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 15, 2019</label>
     <value>2.83</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 15, 2019: $2.83</valueToShow>
+    <valueToShow>$2.83</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 22, 2019</label>
     <value>2.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 22, 2019: $2.84</valueToShow>
+    <valueToShow>$2.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 29, 2019</label>
     <value>2.89</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 29, 2019: $2.89</valueToShow>
+    <valueToShow>$2.89</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 6, 2019</label>
     <value>2.9</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 6, 2019: $2.9</valueToShow>
+    <valueToShow>$2.9</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 13, 2019</label>
     <value>2.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 13, 2019: $2.87</valueToShow>
+    <valueToShow>$2.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 20, 2019</label>
     <value>2.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 20, 2019: $2.85</valueToShow>
+    <valueToShow>$2.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 27, 2019</label>
     <value>2.82</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 27, 2019: $2.82</valueToShow>
+    <valueToShow>$2.82</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 3, 2019</label>
     <value>2.81</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 3, 2019: $2.81</valueToShow>
+    <valueToShow>$2.81</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 10, 2019</label>
     <value>2.73</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 10, 2019: $2.73</valueToShow>
+    <valueToShow>$2.73</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 17, 2019</label>
     <value>2.67</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 17, 2019: $2.67</valueToShow>
+    <valueToShow>$2.67</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 24, 2019</label>
     <value>2.65</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 24, 2019: $2.65</valueToShow>
+    <valueToShow>$2.65</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 1, 2019</label>
     <value>2.71</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 1, 2019: $2.71</valueToShow>
+    <valueToShow>$2.71</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 8, 2019</label>
     <value>2.74</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 8, 2019: $2.74</valueToShow>
+    <valueToShow>$2.74</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 15, 2019</label>
     <value>2.78</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 15, 2019: $2.78</valueToShow>
+    <valueToShow>$2.78</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 22, 2019</label>
     <value>2.75</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 22, 2019: $2.75</valueToShow>
+    <valueToShow>$2.75</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 29, 2019</label>
     <value>2.71</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 29, 2019: $2.71</valueToShow>
+    <valueToShow>$2.71</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 5, 2019</label>
     <value>2.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 5, 2019: $2.69</valueToShow>
+    <valueToShow>$2.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 12, 2019</label>
     <value>2.62</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 12, 2019: $2.62</valueToShow>
+    <valueToShow>$2.62</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 19, 2019</label>
     <value>2.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 19, 2019: $2.6</valueToShow>
+    <valueToShow>$2.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 26, 2019</label>
     <value>2.57</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 26, 2019: $2.57</valueToShow>
+    <valueToShow>$2.57</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 2, 2019</label>
     <value>2.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 2, 2019: $2.56</valueToShow>
+    <valueToShow>$2.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 9, 2019</label>
     <value>2.55</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 9, 2019: $2.55</valueToShow>
+    <valueToShow>$2.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 16, 2019</label>
     <value>2.55</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 16, 2019: $2.55</valueToShow>
+    <valueToShow>$2.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 23, 2019</label>
     <value>2.65</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 23, 2019: $2.65</valueToShow>
+    <valueToShow>$2.65</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 30, 2019</label>
     <value>2.64</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 30, 2019: $2.64</valueToShow>
+    <valueToShow>$2.64</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 7, 2019</label>
     <value>2.64</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 7, 2019: $2.64</valueToShow>
+    <valueToShow>$2.64</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 14, 2019</label>
     <value>2.63</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 14, 2019: $2.63</valueToShow>
+    <valueToShow>$2.63</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 21, 2019</label>
     <value>2.64</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 21, 2019: $2.64</valueToShow>
+    <valueToShow>$2.64</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 28, 2019</label>
     <value>2.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 28, 2019: $2.6</valueToShow>
+    <valueToShow>$2.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 4, 2019</label>
     <value>2.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 4, 2019: $2.6</valueToShow>
+    <valueToShow>$2.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 11, 2019</label>
     <value>2.62</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 11, 2019: $2.62</valueToShow>
+    <valueToShow>$2.62</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 18, 2019</label>
     <value>2.59</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 18, 2019: $2.59</valueToShow>
+    <valueToShow>$2.59</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 25, 2019</label>
     <value>2.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 25, 2019: $2.58</valueToShow>
+    <valueToShow>$2.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 2, 2019</label>
     <value>2.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 2, 2019: $2.58</valueToShow>
+    <valueToShow>$2.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 9, 2019</label>
     <value>2.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 9, 2019: $2.56</valueToShow>
+    <valueToShow>$2.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 16, 2019</label>
     <value>2.54</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 16, 2019: $2.54</valueToShow>
+    <valueToShow>$2.54</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 23, 2019</label>
     <value>2.53</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 23, 2019: $2.53</valueToShow>
+    <valueToShow>$2.53</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 30, 2019</label>
     <value>2.57</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 30, 2019: $2.57</valueToShow>
+    <valueToShow>$2.57</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 6, 2020</label>
     <value>2.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 6, 2020: $2.58</valueToShow>
+    <valueToShow>$2.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 13, 2020</label>
     <value>2.57</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 13, 2020: $2.57</valueToShow>
+    <valueToShow>$2.57</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 20, 2020</label>
     <value>2.54</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 20, 2020: $2.54</valueToShow>
+    <valueToShow>$2.54</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 27, 2020</label>
     <value>2.51</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 27, 2020: $2.51</valueToShow>
+    <valueToShow>$2.51</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 3, 2020</label>
     <value>2.46</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 3, 2020: $2.46</valueToShow>
+    <valueToShow>$2.46</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 10, 2020</label>
     <value>2.42</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 10, 2020: $2.42</valueToShow>
+    <valueToShow>$2.42</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 17, 2020</label>
     <value>2.43</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 17, 2020: $2.43</valueToShow>
+    <valueToShow>$2.43</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 24, 2020</label>
     <value>2.47</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 24, 2020: $2.47</valueToShow>
+    <valueToShow>$2.47</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 2, 2020</label>
     <value>2.42</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 2, 2020: $2.42</valueToShow>
+    <valueToShow>$2.42</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 9, 2020</label>
     <value>2.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 9, 2020: $2.38</valueToShow>
+    <valueToShow>$2.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 16, 2020</label>
     <value>2.25</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 16, 2020: $2.25</valueToShow>
+    <valueToShow>$2.25</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 23, 2020</label>
     <value>2.12</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 23, 2020: $2.12</valueToShow>
+    <valueToShow>$2.12</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 30, 2020</label>
     <value>2</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 30, 2020: $2</valueToShow>
+    <valueToShow>$2</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 6, 2020</label>
     <value>1.92</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 6, 2020: $1.92</valueToShow>
+    <valueToShow>$1.92</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 13, 2020</label>
     <value>1.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 13, 2020: $1.85</valueToShow>
+    <valueToShow>$1.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 20, 2020</label>
     <value>1.81</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 20, 2020: $1.81</valueToShow>
+    <valueToShow>$1.81</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 27, 2020</label>
     <value>1.77</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 27, 2020: $1.77</valueToShow>
+    <valueToShow>$1.77</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 4, 2020</label>
     <value>1.79</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 4, 2020: $1.79</valueToShow>
+    <valueToShow>$1.79</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 11, 2020</label>
     <value>1.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 11, 2020: $1.85</valueToShow>
+    <valueToShow>$1.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 18, 2020</label>
     <value>1.88</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 18, 2020: $1.88</valueToShow>
+    <valueToShow>$1.88</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 25, 2020</label>
     <value>1.96</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 25, 2020: $1.96</valueToShow>
+    <valueToShow>$1.96</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 1, 2020</label>
     <value>1.97</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 1, 2020: $1.97</valueToShow>
+    <valueToShow>$1.97</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 8, 2020</label>
     <value>2.04</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 8, 2020: $2.04</valueToShow>
+    <valueToShow>$2.04</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 15, 2020</label>
     <value>2.1</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 15, 2020: $2.1</valueToShow>
+    <valueToShow>$2.1</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 22, 2020</label>
     <value>2.13</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 22, 2020: $2.13</valueToShow>
+    <valueToShow>$2.13</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 29, 2020</label>
     <value>2.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 29, 2020: $2.17</valueToShow>
+    <valueToShow>$2.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 6, 2020</label>
     <value>2.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 6, 2020: $2.18</valueToShow>
+    <valueToShow>$2.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 13, 2020</label>
     <value>2.19</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 13, 2020: $2.19</valueToShow>
+    <valueToShow>$2.19</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 20, 2020</label>
     <value>2.19</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 20, 2020: $2.19</valueToShow>
+    <valueToShow>$2.19</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 27, 2020</label>
     <value>2.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 27, 2020: $2.17</valueToShow>
+    <valueToShow>$2.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 3, 2020</label>
     <value>2.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 3, 2020: $2.18</valueToShow>
+    <valueToShow>$2.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 10, 2020</label>
     <value>2.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 10, 2020: $2.17</valueToShow>
+    <valueToShow>$2.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 17, 2020</label>
     <value>2.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 17, 2020: $2.17</valueToShow>
+    <valueToShow>$2.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 24, 2020</label>
     <value>2.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 24, 2020: $2.18</valueToShow>
+    <valueToShow>$2.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 31, 2020</label>
     <value>2.22</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 31, 2020: $2.22</valueToShow>
+    <valueToShow>$2.22</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 7, 2020</label>
     <value>2.21</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 7, 2020: $2.21</valueToShow>
+    <valueToShow>$2.21</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 14, 2020</label>
     <value>2.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 14, 2020: $2.18</valueToShow>
+    <valueToShow>$2.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 21, 2020</label>
     <value>2.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 21, 2020: $2.17</valueToShow>
+    <valueToShow>$2.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 28, 2020</label>
     <value>2.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 28, 2020: $2.17</valueToShow>
+    <valueToShow>$2.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 5, 2020</label>
     <value>2.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 5, 2020: $2.17</valueToShow>
+    <valueToShow>$2.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 12, 2020</label>
     <value>2.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 12, 2020: $2.17</valueToShow>
+    <valueToShow>$2.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 19, 2020</label>
     <value>2.15</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 19, 2020: $2.15</valueToShow>
+    <valueToShow>$2.15</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 26, 2020</label>
     <value>2.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 26, 2020: $2.14</valueToShow>
+    <valueToShow>$2.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 2, 2020</label>
     <value>2.11</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 2, 2020: $2.11</valueToShow>
+    <valueToShow>$2.11</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 9, 2020</label>
     <value>2.1</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 9, 2020: $2.1</valueToShow>
+    <valueToShow>$2.1</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 16, 2020</label>
     <value>2.11</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 16, 2020: $2.11</valueToShow>
+    <valueToShow>$2.11</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 23, 2020</label>
     <value>2.1</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 23, 2020: $2.1</valueToShow>
+    <valueToShow>$2.1</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 30, 2020</label>
     <value>2.12</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 30, 2020: $2.12</valueToShow>
+    <valueToShow>$2.12</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 7, 2020</label>
     <value>2.16</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 7, 2020: $2.16</valueToShow>
+    <valueToShow>$2.16</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 14, 2020</label>
     <value>2.16</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 14, 2020: $2.16</valueToShow>
+    <valueToShow>$2.16</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 21, 2020</label>
     <value>2.22</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 21, 2020: $2.22</valueToShow>
+    <valueToShow>$2.22</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 28, 2020</label>
     <value>2.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 28, 2020: $2.24</valueToShow>
+    <valueToShow>$2.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 4, 2021</label>
     <value>2.25</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 4, 2021: $2.25</valueToShow>
+    <valueToShow>$2.25</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 11, 2021</label>
     <value>2.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 11, 2021: $2.32</valueToShow>
+    <valueToShow>$2.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 18, 2021</label>
     <value>2.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 18, 2021: $2.38</valueToShow>
+    <valueToShow>$2.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 25, 2021</label>
     <value>2.39</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 25, 2021: $2.39</valueToShow>
+    <valueToShow>$2.39</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 1, 2021</label>
     <value>2.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 1, 2021: $2.41</valueToShow>
+    <valueToShow>$2.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 8, 2021</label>
     <value>2.46</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 8, 2021: $2.46</valueToShow>
+    <valueToShow>$2.46</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 15, 2021</label>
     <value>2.5</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 15, 2021: $2.5</valueToShow>
+    <valueToShow>$2.5</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 22, 2021</label>
     <value>2.63</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 22, 2021: $2.63</valueToShow>
+    <valueToShow>$2.63</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 1, 2021</label>
     <value>2.71</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 1, 2021: $2.71</valueToShow>
+    <valueToShow>$2.71</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 8, 2021</label>
     <value>2.77</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 8, 2021: $2.77</valueToShow>
+    <valueToShow>$2.77</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 15, 2021</label>
     <value>2.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 15, 2021: $2.85</valueToShow>
+    <valueToShow>$2.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 22, 2021</label>
     <value>2.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 22, 2021: $2.87</valueToShow>
+    <valueToShow>$2.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 29, 2021</label>
     <value>2.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 29, 2021: $2.85</valueToShow>
+    <valueToShow>$2.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 5, 2021</label>
     <value>2.86</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 5, 2021: $2.86</valueToShow>
+    <valueToShow>$2.86</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 12, 2021</label>
     <value>2.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 12, 2021: $2.85</valueToShow>
+    <valueToShow>$2.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 19, 2021</label>
     <value>2.86</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 19, 2021: $2.86</valueToShow>
+    <valueToShow>$2.86</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 26, 2021</label>
     <value>2.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 26, 2021: $2.87</valueToShow>
+    <valueToShow>$2.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 3, 2021</label>
     <value>2.89</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 3, 2021: $2.89</valueToShow>
+    <valueToShow>$2.89</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 10, 2021</label>
     <value>2.96</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 10, 2021: $2.96</valueToShow>
+    <valueToShow>$2.96</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 17, 2021</label>
     <value>3.03</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 17, 2021: $3.03</valueToShow>
+    <valueToShow>$3.03</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 24, 2021</label>
     <value>3.02</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 24, 2021: $3.02</valueToShow>
+    <valueToShow>$3.02</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 31, 2021</label>
     <value>3.03</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 31, 2021: $3.03</valueToShow>
+    <valueToShow>$3.03</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 7, 2021</label>
     <value>3.04</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 7, 2021: $3.04</valueToShow>
+    <valueToShow>$3.04</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 14, 2021</label>
     <value>3.07</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 14, 2021: $3.07</valueToShow>
+    <valueToShow>$3.07</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 21, 2021</label>
     <value>3.06</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 21, 2021: $3.06</valueToShow>
+    <valueToShow>$3.06</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 28, 2021</label>
     <value>3.09</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 28, 2021: $3.09</valueToShow>
+    <valueToShow>$3.09</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 5, 2021</label>
     <value>3.12</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 5, 2021: $3.12</valueToShow>
+    <valueToShow>$3.12</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 12, 2021</label>
     <value>3.13</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 12, 2021: $3.13</valueToShow>
+    <valueToShow>$3.13</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 19, 2021</label>
     <value>3.15</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 19, 2021: $3.15</valueToShow>
+    <valueToShow>$3.15</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 26, 2021</label>
     <value>3.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 26, 2021: $3.14</valueToShow>
+    <valueToShow>$3.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 2, 2021</label>
     <value>3.16</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 2, 2021: $3.16</valueToShow>
+    <valueToShow>$3.16</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 9, 2021</label>
     <value>3.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 9, 2021: $3.17</valueToShow>
+    <valueToShow>$3.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 16, 2021</label>
     <value>3.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 16, 2021: $3.17</valueToShow>
+    <valueToShow>$3.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 23, 2021</label>
     <value>3.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 23, 2021: $3.14</valueToShow>
+    <valueToShow>$3.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 30, 2021</label>
     <value>3.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 30, 2021: $3.14</valueToShow>
+    <valueToShow>$3.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 6, 2021</label>
     <value>3.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 6, 2021: $3.18</valueToShow>
+    <valueToShow>$3.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 13, 2021</label>
     <value>3.16</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 13, 2021: $3.16</valueToShow>
+    <valueToShow>$3.16</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 20, 2021</label>
     <value>3.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 20, 2021: $3.18</valueToShow>
+    <valueToShow>$3.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 27, 2021</label>
     <value>3.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 27, 2021: $3.17</valueToShow>
+    <valueToShow>$3.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 4, 2021</label>
     <value>3.19</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 4, 2021: $3.19</valueToShow>
+    <valueToShow>$3.19</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 11, 2021</label>
     <value>3.27</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 11, 2021: $3.27</valueToShow>
+    <valueToShow>$3.27</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 18, 2021</label>
     <value>3.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 18, 2021: $3.32</valueToShow>
+    <valueToShow>$3.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 25, 2021</label>
     <value>3.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 25, 2021: $3.38</valueToShow>
+    <valueToShow>$3.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 1, 2021</label>
     <value>3.39</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 1, 2021: $3.39</valueToShow>
+    <valueToShow>$3.39</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 8, 2021</label>
     <value>3.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 8, 2021: $3.41</valueToShow>
+    <valueToShow>$3.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 15, 2021</label>
     <value>3.4</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 15, 2021: $3.4</valueToShow>
+    <valueToShow>$3.4</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 22, 2021</label>
     <value>3.4</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 22, 2021: $3.4</valueToShow>
+    <valueToShow>$3.4</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 29, 2021</label>
     <value>3.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 29, 2021: $3.38</valueToShow>
+    <valueToShow>$3.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 6, 2021</label>
     <value>3.34</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 6, 2021: $3.34</valueToShow>
+    <valueToShow>$3.34</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 13, 2021</label>
     <value>3.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 13, 2021: $3.32</valueToShow>
+    <valueToShow>$3.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 20, 2021</label>
     <value>3.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 20, 2021: $3.3</valueToShow>
+    <valueToShow>$3.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 27, 2021</label>
     <value>3.28</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 27, 2021: $3.28</valueToShow>
+    <valueToShow>$3.28</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 3, 2022</label>
     <value>3.28</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 3, 2022: $3.28</valueToShow>
+    <valueToShow>$3.28</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 10, 2022</label>
     <value>3.3</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 10, 2022: $3.3</valueToShow>
+    <valueToShow>$3.3</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 17, 2022</label>
     <value>3.31</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 17, 2022: $3.31</valueToShow>
+    <valueToShow>$3.31</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 24, 2022</label>
     <value>3.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 24, 2022: $3.32</valueToShow>
+    <valueToShow>$3.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 31, 2022</label>
     <value>3.37</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 31, 2022: $3.37</valueToShow>
+    <valueToShow>$3.37</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 7, 2022</label>
     <value>3.44</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 7, 2022: $3.44</valueToShow>
+    <valueToShow>$3.44</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 14, 2022</label>
     <value>3.49</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 14, 2022: $3.49</valueToShow>
+    <valueToShow>$3.49</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 21, 2022</label>
     <value>3.53</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 21, 2022: $3.53</valueToShow>
+    <valueToShow>$3.53</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 28, 2022</label>
     <value>3.61</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 28, 2022: $3.61</valueToShow>
+    <valueToShow>$3.61</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 7, 2022</label>
     <value>4.1</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 7, 2022: $4.1</valueToShow>
+    <valueToShow>$4.1</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 14, 2022</label>
     <value>4.32</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 14, 2022: $4.32</valueToShow>
+    <valueToShow>$4.32</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 21, 2022</label>
     <value>4.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 21, 2022: $4.24</valueToShow>
+    <valueToShow>$4.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 28, 2022</label>
     <value>4.23</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 28, 2022: $4.23</valueToShow>
+    <valueToShow>$4.23</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 4, 2022</label>
     <value>4.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 4, 2022: $4.17</valueToShow>
+    <valueToShow>$4.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 11, 2022</label>
     <value>4.09</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 11, 2022: $4.09</valueToShow>
+    <valueToShow>$4.09</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 18, 2022</label>
     <value>4.07</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 18, 2022: $4.07</valueToShow>
+    <valueToShow>$4.07</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 25, 2022</label>
     <value>4.11</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 25, 2022: $4.11</valueToShow>
+    <valueToShow>$4.11</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 2, 2022</label>
     <value>4.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 2, 2022: $4.18</valueToShow>
+    <valueToShow>$4.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 9, 2022</label>
     <value>4.33</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 9, 2022: $4.33</valueToShow>
+    <valueToShow>$4.33</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 16, 2022</label>
     <value>4.49</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 16, 2022: $4.49</valueToShow>
+    <valueToShow>$4.49</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 23, 2022</label>
     <value>4.59</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 23, 2022: $4.59</valueToShow>
+    <valueToShow>$4.59</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 30, 2022</label>
     <value>4.62</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 30, 2022: $4.62</valueToShow>
+    <valueToShow>$4.62</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 6, 2022</label>
     <value>4.88</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 6, 2022: $4.88</valueToShow>
+    <valueToShow>$4.88</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 13, 2022</label>
     <value>5.01</value>
     <showLabel>0</showLabel>
     <showValue>1</showValue>
-    <valueToShow>Jun 13, 2022: $5.01</valueToShow>
+    <valueToShow>$5.01</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 20, 2022</label>
     <value>4.96</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 20, 2022: $4.96</valueToShow>
+    <valueToShow>$4.96</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 27, 2022</label>
     <value>4.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 27, 2022: $4.87</valueToShow>
+    <valueToShow>$4.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 4, 2022</label>
     <value>4.77</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 4, 2022: $4.77</valueToShow>
+    <valueToShow>$4.77</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 11, 2022</label>
     <value>4.65</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 11, 2022: $4.65</valueToShow>
+    <valueToShow>$4.65</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 18, 2022</label>
     <value>4.49</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 18, 2022: $4.49</valueToShow>
+    <valueToShow>$4.49</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 25, 2022</label>
     <value>4.33</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 25, 2022: $4.33</valueToShow>
+    <valueToShow>$4.33</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 1, 2022</label>
     <value>4.19</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 1, 2022: $4.19</valueToShow>
+    <valueToShow>$4.19</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 8, 2022</label>
     <value>4.04</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 8, 2022: $4.04</valueToShow>
+    <valueToShow>$4.04</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 15, 2022</label>
     <value>3.94</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 15, 2022: $3.94</valueToShow>
+    <valueToShow>$3.94</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 22, 2022</label>
     <value>3.88</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 22, 2022: $3.88</valueToShow>
+    <valueToShow>$3.88</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 29, 2022</label>
     <value>3.83</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 29, 2022: $3.83</valueToShow>
+    <valueToShow>$3.83</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 5, 2022</label>
     <value>3.75</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 5, 2022: $3.75</valueToShow>
+    <valueToShow>$3.75</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 12, 2022</label>
     <value>3.69</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 12, 2022: $3.69</valueToShow>
+    <valueToShow>$3.69</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 19, 2022</label>
     <value>3.65</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 19, 2022: $3.65</valueToShow>
+    <valueToShow>$3.65</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 26, 2022</label>
     <value>3.71</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 26, 2022: $3.71</valueToShow>
+    <valueToShow>$3.71</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 3, 2022</label>
     <value>3.78</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 3, 2022: $3.78</valueToShow>
+    <valueToShow>$3.78</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 10, 2022</label>
     <value>3.91</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 10, 2022: $3.91</valueToShow>
+    <valueToShow>$3.91</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 17, 2022</label>
     <value>3.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 17, 2022: $3.87</valueToShow>
+    <valueToShow>$3.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 24, 2022</label>
     <value>3.77</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 24, 2022: $3.77</valueToShow>
+    <valueToShow>$3.77</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 31, 2022</label>
     <value>3.74</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 31, 2022: $3.74</valueToShow>
+    <valueToShow>$3.74</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 7, 2022</label>
     <value>3.8</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 7, 2022: $3.8</valueToShow>
+    <valueToShow>$3.8</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 14, 2022</label>
     <value>3.76</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 14, 2022: $3.76</valueToShow>
+    <valueToShow>$3.76</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 21, 2022</label>
     <value>3.65</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 21, 2022: $3.65</valueToShow>
+    <valueToShow>$3.65</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 28, 2022</label>
     <value>3.53</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 28, 2022: $3.53</valueToShow>
+    <valueToShow>$3.53</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 5, 2022</label>
     <value>3.39</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 5, 2022: $3.39</valueToShow>
+    <valueToShow>$3.39</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 12, 2022</label>
     <value>3.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 12, 2022: $3.24</valueToShow>
+    <valueToShow>$3.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 19, 2022</label>
     <value>3.12</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 19, 2022: $3.12</valueToShow>
+    <valueToShow>$3.12</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 26, 2022</label>
     <value>3.09</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 26, 2022: $3.09</valueToShow>
+    <valueToShow>$3.09</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 2, 2023</label>
     <value>3.22</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 2, 2023: $3.22</valueToShow>
+    <valueToShow>$3.22</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 9, 2023</label>
     <value>3.26</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 9, 2023: $3.26</valueToShow>
+    <valueToShow>$3.26</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 16, 2023</label>
     <value>3.31</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 16, 2023: $3.31</valueToShow>
+    <valueToShow>$3.31</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 23, 2023</label>
     <value>3.42</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 23, 2023: $3.42</valueToShow>
+    <valueToShow>$3.42</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 30, 2023</label>
     <value>3.49</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 30, 2023: $3.49</valueToShow>
+    <valueToShow>$3.49</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 6, 2023</label>
     <value>3.44</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 6, 2023: $3.44</valueToShow>
+    <valueToShow>$3.44</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 13, 2023</label>
     <value>3.39</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 13, 2023: $3.39</valueToShow>
+    <valueToShow>$3.39</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 20, 2023</label>
     <value>3.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 20, 2023: $3.38</valueToShow>
+    <valueToShow>$3.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 27, 2023</label>
     <value>3.34</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 27, 2023: $3.34</valueToShow>
+    <valueToShow>$3.34</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 6, 2023</label>
     <value>3.39</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 6, 2023: $3.39</valueToShow>
+    <valueToShow>$3.39</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 13, 2023</label>
     <value>3.46</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 13, 2023: $3.46</valueToShow>
+    <valueToShow>$3.46</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 20, 2023</label>
     <value>3.42</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 20, 2023: $3.42</valueToShow>
+    <valueToShow>$3.42</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 27, 2023</label>
     <value>3.42</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 27, 2023: $3.42</valueToShow>
+    <valueToShow>$3.42</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 3, 2023</label>
     <value>3.5</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 3, 2023: $3.5</valueToShow>
+    <valueToShow>$3.5</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 10, 2023</label>
     <value>3.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 10, 2023: $3.6</valueToShow>
+    <valueToShow>$3.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 17, 2023</label>
     <value>3.66</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 17, 2023: $3.66</valueToShow>
+    <valueToShow>$3.66</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 24, 2023</label>
     <value>3.66</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 24, 2023: $3.66</valueToShow>
+    <valueToShow>$3.66</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 1, 2023</label>
     <value>3.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 1, 2023: $3.6</valueToShow>
+    <valueToShow>$3.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 8, 2023</label>
     <value>3.53</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 8, 2023: $3.53</valueToShow>
+    <valueToShow>$3.53</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 15, 2023</label>
     <value>3.54</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 15, 2023: $3.54</valueToShow>
+    <valueToShow>$3.54</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 22, 2023</label>
     <value>3.53</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 22, 2023: $3.53</valueToShow>
+    <valueToShow>$3.53</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 29, 2023</label>
     <value>3.57</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 29, 2023: $3.57</valueToShow>
+    <valueToShow>$3.57</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 5, 2023</label>
     <value>3.54</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 5, 2023: $3.54</valueToShow>
+    <valueToShow>$3.54</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 12, 2023</label>
     <value>3.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 12, 2023: $3.6</valueToShow>
+    <valueToShow>$3.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 19, 2023</label>
     <value>3.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 19, 2023: $3.58</valueToShow>
+    <valueToShow>$3.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 26, 2023</label>
     <value>3.57</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 26, 2023: $3.57</valueToShow>
+    <valueToShow>$3.57</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 3, 2023</label>
     <value>3.53</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 3, 2023: $3.53</valueToShow>
+    <valueToShow>$3.53</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 10, 2023</label>
     <value>3.55</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 10, 2023: $3.55</valueToShow>
+    <valueToShow>$3.55</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 17, 2023</label>
     <value>3.56</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 17, 2023: $3.56</valueToShow>
+    <valueToShow>$3.56</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 24, 2023</label>
     <value>3.6</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 24, 2023: $3.6</valueToShow>
+    <valueToShow>$3.6</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 31, 2023</label>
     <value>3.76</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 31, 2023: $3.76</valueToShow>
+    <valueToShow>$3.76</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 7, 2023</label>
     <value>3.83</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 7, 2023: $3.83</valueToShow>
+    <valueToShow>$3.83</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 14, 2023</label>
     <value>3.85</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 14, 2023: $3.85</valueToShow>
+    <valueToShow>$3.85</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 21, 2023</label>
     <value>3.87</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 21, 2023: $3.87</valueToShow>
+    <valueToShow>$3.87</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 28, 2023</label>
     <value>3.81</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 28, 2023: $3.81</valueToShow>
+    <valueToShow>$3.81</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 4, 2023</label>
     <value>3.81</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 4, 2023: $3.81</valueToShow>
+    <valueToShow>$3.81</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 11, 2023</label>
     <value>3.82</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 11, 2023: $3.82</valueToShow>
+    <valueToShow>$3.82</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 18, 2023</label>
     <value>3.88</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 18, 2023: $3.88</valueToShow>
+    <valueToShow>$3.88</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 25, 2023</label>
     <value>3.84</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 25, 2023: $3.84</valueToShow>
+    <valueToShow>$3.84</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 2, 2023</label>
     <value>3.8</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 2, 2023: $3.8</valueToShow>
+    <valueToShow>$3.8</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 9, 2023</label>
     <value>3.68</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 9, 2023: $3.68</valueToShow>
+    <valueToShow>$3.68</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 16, 2023</label>
     <value>3.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 16, 2023: $3.58</valueToShow>
+    <valueToShow>$3.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 23, 2023</label>
     <value>3.53</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 23, 2023: $3.53</valueToShow>
+    <valueToShow>$3.53</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 30, 2023</label>
     <value>3.47</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 30, 2023: $3.47</valueToShow>
+    <valueToShow>$3.47</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 6, 2023</label>
     <value>3.4</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 6, 2023: $3.4</valueToShow>
+    <valueToShow>$3.4</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 13, 2023</label>
     <value>3.35</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 13, 2023: $3.35</valueToShow>
+    <valueToShow>$3.35</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 20, 2023</label>
     <value>3.29</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 20, 2023: $3.29</valueToShow>
+    <valueToShow>$3.29</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 27, 2023</label>
     <value>3.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 27, 2023: $3.24</valueToShow>
+    <valueToShow>$3.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 4, 2023</label>
     <value>3.23</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 4, 2023: $3.23</valueToShow>
+    <valueToShow>$3.23</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 11, 2023</label>
     <value>3.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 11, 2023: $3.14</valueToShow>
+    <valueToShow>$3.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 18, 2023</label>
     <value>3.05</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 18, 2023: $3.05</valueToShow>
+    <valueToShow>$3.05</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Dec 25, 2023</label>
     <value>3.12</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Dec 25, 2023: $3.12</valueToShow>
+    <valueToShow>$3.12</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 1, 2024</label>
     <value>3.09</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 1, 2024: $3.09</valueToShow>
+    <valueToShow>$3.09</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 8, 2024</label>
     <value>3.07</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 8, 2024: $3.07</valueToShow>
+    <valueToShow>$3.07</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 15, 2024</label>
     <value>3.06</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 15, 2024: $3.06</valueToShow>
+    <valueToShow>$3.06</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 22, 2024</label>
     <value>3.06</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 22, 2024: $3.06</valueToShow>
+    <valueToShow>$3.06</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jan 29, 2024</label>
     <value>3.1</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jan 29, 2024: $3.1</valueToShow>
+    <valueToShow>$3.1</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 5, 2024</label>
     <value>3.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 5, 2024: $3.14</valueToShow>
+    <valueToShow>$3.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 12, 2024</label>
     <value>3.19</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 12, 2024: $3.19</valueToShow>
+    <valueToShow>$3.19</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 19, 2024</label>
     <value>3.27</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 19, 2024: $3.27</valueToShow>
+    <valueToShow>$3.27</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Feb 26, 2024</label>
     <value>3.25</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Feb 26, 2024: $3.25</valueToShow>
+    <valueToShow>$3.25</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 4, 2024</label>
     <value>3.35</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 4, 2024: $3.35</valueToShow>
+    <valueToShow>$3.35</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 11, 2024</label>
     <value>3.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 11, 2024: $3.38</valueToShow>
+    <valueToShow>$3.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 18, 2024</label>
     <value>3.45</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 18, 2024: $3.45</valueToShow>
+    <valueToShow>$3.45</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Mar 25, 2024</label>
     <value>3.52</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Mar 25, 2024: $3.52</valueToShow>
+    <valueToShow>$3.52</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 1, 2024</label>
     <value>3.52</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 1, 2024: $3.52</valueToShow>
+    <valueToShow>$3.52</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 8, 2024</label>
     <value>3.59</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 8, 2024: $3.59</valueToShow>
+    <valueToShow>$3.59</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 15, 2024</label>
     <value>3.63</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 15, 2024: $3.63</valueToShow>
+    <valueToShow>$3.63</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 22, 2024</label>
     <value>3.67</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 22, 2024: $3.67</valueToShow>
+    <valueToShow>$3.67</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Apr 29, 2024</label>
     <value>3.65</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Apr 29, 2024: $3.65</valueToShow>
+    <valueToShow>$3.65</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 6, 2024</label>
     <value>3.64</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 6, 2024: $3.64</valueToShow>
+    <valueToShow>$3.64</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 13, 2024</label>
     <value>3.61</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 13, 2024: $3.61</valueToShow>
+    <valueToShow>$3.61</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 20, 2024</label>
     <value>3.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 20, 2024: $3.58</valueToShow>
+    <valueToShow>$3.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>May 27, 2024</label>
     <value>3.58</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>May 27, 2024: $3.58</valueToShow>
+    <valueToShow>$3.58</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 3, 2024</label>
     <value>3.52</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 3, 2024: $3.52</valueToShow>
+    <valueToShow>$3.52</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 10, 2024</label>
     <value>3.43</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 10, 2024: $3.43</valueToShow>
+    <valueToShow>$3.43</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 17, 2024</label>
     <value>3.44</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 17, 2024: $3.44</valueToShow>
+    <valueToShow>$3.44</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jun 24, 2024</label>
     <value>3.44</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jun 24, 2024: $3.44</valueToShow>
+    <valueToShow>$3.44</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 1, 2024</label>
     <value>3.48</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 1, 2024: $3.48</valueToShow>
+    <valueToShow>$3.48</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 8, 2024</label>
     <value>3.49</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 8, 2024: $3.49</valueToShow>
+    <valueToShow>$3.49</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 15, 2024</label>
     <value>3.5</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 15, 2024: $3.5</valueToShow>
+    <valueToShow>$3.5</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 22, 2024</label>
     <value>3.47</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 22, 2024: $3.47</valueToShow>
+    <valueToShow>$3.47</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Jul 29, 2024</label>
     <value>3.48</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Jul 29, 2024: $3.48</valueToShow>
+    <valueToShow>$3.48</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 5, 2024</label>
     <value>3.45</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 5, 2024: $3.45</valueToShow>
+    <valueToShow>$3.45</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 12, 2024</label>
     <value>3.41</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 12, 2024: $3.41</valueToShow>
+    <valueToShow>$3.41</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 19, 2024</label>
     <value>3.38</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 19, 2024: $3.38</valueToShow>
+    <valueToShow>$3.38</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Aug 26, 2024</label>
     <value>3.31</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Aug 26, 2024: $3.31</valueToShow>
+    <valueToShow>$3.31</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 2, 2024</label>
     <value>3.29</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 2, 2024: $3.29</valueToShow>
+    <valueToShow>$3.29</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 9, 2024</label>
     <value>3.24</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 9, 2024: $3.24</valueToShow>
+    <valueToShow>$3.24</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 16, 2024</label>
     <value>3.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 16, 2024: $3.18</valueToShow>
+    <valueToShow>$3.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 23, 2024</label>
     <value>3.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 23, 2024: $3.18</valueToShow>
+    <valueToShow>$3.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Sep 30, 2024</label>
     <value>3.18</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Sep 30, 2024: $3.18</valueToShow>
+    <valueToShow>$3.18</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 7, 2024</label>
     <value>3.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 7, 2024: $3.14</valueToShow>
+    <valueToShow>$3.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 14, 2024</label>
     <value>3.17</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 14, 2024: $3.17</valueToShow>
+    <valueToShow>$3.17</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 21, 2024</label>
     <value>3.14</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 21, 2024: $3.14</valueToShow>
+    <valueToShow>$3.14</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Oct 28, 2024</label>
     <value>3.1</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Oct 28, 2024: $3.1</valueToShow>
+    <valueToShow>$3.1</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 4, 2024</label>
     <value>3.07</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 4, 2024: $3.07</valueToShow>
+    <valueToShow>$3.07</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 11, 2024</label>
     <value>3.05</value>
     <showLabel>0</showLabel>
     <showValue>0</showValue>
-    <valueToShow>Nov 11, 2024: $3.05</valueToShow>
+    <valueToShow>$3.05</valueToShow>
   </dataPoint>
   <dataPoint>
     <label>Nov 18, 2024</label>
     <value>3.05</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>$3.05</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Nov 25, 2024</label>
+    <value>3.04</value>
+    <showLabel>0</showLabel>
+    <showValue>0</showValue>
+    <valueToShow>$3.04</valueToShow>
+  </dataPoint>
+  <dataPoint>
+    <label>Dec 2, 2024</label>
+    <value>3.03</value>
     <showLabel>1</showLabel>
     <showValue>1</showValue>
-    <valueToShow>Nov 18, 2024: $3.05</valueToShow>
+    <valueToShow>$3.03</valueToShow>
   </dataPoint>
   <source>Energy Information Administration</source>
-  <date>As of Nov 18, 2024</date>
+  <date>As of Dec 2, 2024</date>
   <qualifier> </qualifier>
 </chart>
