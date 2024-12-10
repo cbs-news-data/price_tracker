@@ -26,8 +26,9 @@ gas_prices_us_only <- gas_prices %>%
   select(date, `U.S.`) %>% 
   rename(label = date,
          value = `U.S.`) %>% 
-  mutate(showLabel = case_when(label == date_max ~ "1",
-                               label == date_min ~ "1",
+  mutate(showLabel = case_when(value == value_max ~ "1",
+                               value == value_min ~ "1",
+                               label == date_max ~ "1",
                                TRUE ~ "0")) %>% 
   mutate(showValue = case_when(value == value_max ~ "1",
                                value == value_min ~ "1",
@@ -35,7 +36,8 @@ gas_prices_us_only <- gas_prices %>%
                                TRUE ~ "0")) %>% 
   mutate(label = format(as.Date(label), "%b %d, %Y")) %>% 
   mutate(label = str_replace_all(label, " 0", " ")) %>% 
-  mutate(valueToShow = paste0(label, ": $", value))
+  mutate(valueToShow = paste0("$", value))
+ 
 
 #get labels for x axis
 price_labels = paste0(date_min_pretty, "|", date_max_pretty)
@@ -46,8 +48,8 @@ price_labels = paste0(date_min_pretty, "|", date_max_pretty)
 xml_title <- "Weekly gas prices"
 xml_subtitle <- "U.S. average price per gallon"
 xml_xaxis <- price_labels #labels/values for x axis
-xml_yaxis <- "$1|$2|$3|$4|$5" #labels/values for y axis, only fill out in necessary
-xml_ymax <-  value_max #float value for max value
+xml_yaxis <- "$1|$2|$3|$4|$5|$6" #labels/values for y axis, only fill out in necessary
+xml_ymax <-  6 #float value for max value OF AXIS
 xml_source <- "Energy Information Administration"
 xml_date <- paste0("As of ", date_max_pretty)
 xml_type <- "line" #line, bar, pie, etc
