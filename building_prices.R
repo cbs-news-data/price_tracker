@@ -27,14 +27,14 @@ building_series_ids <- c('WPUIP231100',
                 'WPU136101')
 building_item_names <- c("INPUTS TO RESIDENTIAL CONSTRUCTION",
                          "Softwood Lumber", 
-                "Gypsum Products (Drywall)", 
+                "Drywall", 
                 "Steel Mill Products", 
                 "Concrete Block and Brick",
                 "Ready-Mix Concrete", 
                 "Aluminum", 
-                "Architectural Coatings (Paint)", 
+                "Paint", 
                 "Glass",
-                "Asphalt Roofing and Siding")
+                "Asphalt Roofing & Siding")
 
 # Initialize an empty list to store the results
 building_prices_list <- list()
