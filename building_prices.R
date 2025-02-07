@@ -9,32 +9,30 @@ producer_series <- read_tsv("data/wp.series") %>% filter(end_year > 2023)
 # Filter producer_series to new df with selected producer_series items from building series ids
 select_building_series <- producer_series %>% filter(series_id %in% building_series_ids)
 
-
-
 # Access the API key from an environment variable
 key <- Sys.getenv("BLS_API_KEY")
 
 # Define series IDs and corresponding item names
 building_series_ids <- c('WPUIP231100',
-                'WPU0811', 
-                'WPU137', 
-                'WPU1017', 
-                'WPU1331',
-                'WPU13330101', 
-                'WPU102501', 
-                'WPU062101',
-                'WPU1311',
-                'WPU136101')
+                         'WPU0811', 
+                         'WPU137', 
+                         'WPU1017', 
+                         'WPU1331',
+                         'WPU13330101', 
+                         'WPU102501', 
+                         'WPU062101',
+                         'WPU1311',
+                         'WPU136101')
 building_item_names <- c("INPUTS TO RESIDENTIAL CONSTRUCTION",
                          "Softwood Lumber", 
-                "Drywall", 
-                "Steel Mill Products", 
-                "Concrete Block and Brick",
-                "Ready-Mix Concrete", 
-                "Aluminum", 
-                "Paint", 
-                "Glass",
-                "Asphalt Roofing & Siding")
+                         "Drywall", 
+                         "Steel Mill Products", 
+                         "Concrete Block and Brick",
+                         "Ready-Mix Concrete", 
+                         "Aluminum", 
+                         "Paint", 
+                         "Glass",
+                         "Asphalt Roofing & Siding")
 
 # Initialize an empty list to store the results
 building_prices_list <- list()
