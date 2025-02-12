@@ -6,8 +6,6 @@ library(devtools)
 
 # Load bls series data from data folder
 producer_series <- read_tsv("data/wp.series") %>% filter(end_year > 2023)
-# Filter producer_series to new df with selected producer_series items from building series ids
-select_building_series <- producer_series %>% filter(series_id %in% building_series_ids)
 
 # Access the API key from an environment variable
 key <- Sys.getenv("BLS_API_KEY")
@@ -34,17 +32,20 @@ building_item_names <- c("INPUTS TO RESIDENTIAL CONSTRUCTION",
                          "Glass",
                          "Asphalt Roofing & Siding")
 
+# Filter producer_series to new df with selected producer_series items from building series ids
+select_building_series <- producer_series %>% filter(series_id %in% building_series_ids)
+
 # Initialize an empty list to store the results
 building_prices_list <- list()
 
 # Pull the data via the API
-payload <- list(
+building_payload <- list(
   'seriesid'  = building_series_ids,
   'startyear' = 2016,
   'endyear'   = 2024
 )
-response <- blsAPI(payload, 2)
-json <- fromJSON(response)
+building_response <- blsAPI(building_payload, 2)
+json <- fromJSON(building_response)
 
 # Loop through each series ID and corresponding item name
 for (i in seq_along(building_series_ids)) {
