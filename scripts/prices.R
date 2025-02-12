@@ -8,7 +8,8 @@ library(devtools)
 series <- read_tsv("data/ap.series.txt") %>% filter(begin_year < 2019 & end_year > 2023) %>% filter(area_code == "0000" )
 
 # Access the API key from an environment variable
-key <- Sys.getenv("BLS_API_KEY")
+#key <- Sys.getenv("BLS_API_KEY")
+#key <- "cf3e40aa46974c2da9d82c28b56a8d6a"
 
 # Define series IDs and corresponding item names
 series_ids <- c('APU0000709112', 'APU0000704111', 'APU0000711211', 'APU0000703112', 'APU0000FF1101', 
@@ -52,8 +53,9 @@ for (chunk_index in seq_along(series_chunks)) {
   payload <- list(
     'seriesid'  = chunk_series_ids,
     'startyear' = 2019,
-    'endyear'   = 2024
+    'endyear'   = 2025
   )
+  
   response <- blsAPI(payload, 2)
   json <- fromJSON(response)
   
@@ -64,13 +66,15 @@ for (chunk_index in seq_along(series_chunks)) {
     
     # Apply select() and mutate() to the data frame
     prices_data <- prices_data %>%
-      select(-6) %>%
+#      select(-6) %>%
       mutate(item = chunk_item_names[i])
     
     # Store the modified data frame in the list
     prices_list <- append(prices_list, list(prices_data))
   }
 }
+
+# START HERE (MINIMIZE RUNS OF THE ABOVE CODE TO PREVENT API LIMITS)
 
 # Combine all data frames into one table
 prices <- bind_rows(prices_list)
@@ -90,41 +94,10 @@ latest_month_price <- prices %>%
   pull(period) %>%
   first()
 
-# Fix coffee price problem 
-# Step 1: Find the closest available 2019 M10 value for "Coffee (pound)" from the `prices` table
-coffee_2019_M10_value <- prices$value[which(prices$item == "COFFEE" & prices$year == "2019" & prices$period == "M10")]
-
-# Ensure there's only one value to avoid potential issues
-if(length(coffee_2019_M10_value) == 1) {
-  # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
-  rows_to_update <- which(prices_pivot$year == "2019" & is.na(prices_pivot$`COFFEE`))
-  
-  # Step 3: Update those rows with the 2019 M10 value for "Coffee (pound)"
-  if(length(rows_to_update) > 0) { # Check if there are any rows to update
-    prices_pivot$`COFFEE`[rows_to_update] <- coffee_2019_M10_value
-  }
-} else {
-  warning("Multiple or no values found for Coffee for 2019 M10. No updates made.")
-}
-
 # pivot the table items in rows the dates in columns
 prices_pivot2 <- prices %>% filter(period==prices$period[1]) %>% select(-latest,-period,-periodName) %>% pivot_wider(names_from = year, values_from = value)
 # Reorder the columns so that columns 2-6 are in proper order, sorted by number
-prices_pivot2 <- prices_pivot2 %>% select(1,7,6,5,4,3,2)
-
-# Fix coffee data in 2nd table
-#Ensure there's only one value to avoid potential issues
-if(length(coffee_2019_M10_value) == 1) {
-  # Step 2: Identify rows in `prices_pivot` where year is 2019 and "Coffee (pound)" is NA
-  rows_to_update <- which(prices_pivot2$item == "COFFEE" & is.na(prices_pivot2$`2019`))
-  
-  # Step 3: Update those rows with the 2019 M10 value for "Coffee (pound)"
-  if(length(rows_to_update) > 0) { # Check if there are any rows to update
-    prices_pivot2$`2019`[rows_to_update] <- coffee_2019_M10_value
-  }
-} else {
-  warning("Multiple or no values found for COFFEE for 2019 M10. No updates made.")
-}
+prices_pivot2 <- prices_pivot2 %>% select(1,9,8,7,6,5,4,3,2)
 
 # Change columns 2-7 to numeric
 prices_pivot2[,2:7] <- sapply(prices_pivot2[,2:7], as.numeric)

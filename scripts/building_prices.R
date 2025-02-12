@@ -45,12 +45,12 @@ building_payload <- list(
   'endyear'   = 2024
 )
 building_response <- blsAPI(building_payload, 2)
-json <- fromJSON(building_response)
+building_json <- fromJSON(building_response)
 
 # Loop through each series ID and corresponding item name
 for (i in seq_along(building_series_ids)) {
   # Extract the data and convert it to a data frame
-  building_prices_data <- as.data.frame(json[["Results"]][["series"]][["data"]][[i]])
+  building_prices_data <- as.data.frame(building_json[["Results"]][["series"]][["data"]][[i]])
   
   # Apply select() and mutate() to the data frame
   building_prices_data <- building_prices_data %>%
