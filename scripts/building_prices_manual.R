@@ -1,8 +1,9 @@
 library(tidyverse)
 library(dplyr)
+library(jsonlite)
 
 # Load bls series data from data folder
-building_series <- read_tsv("data/wp.series") %>% filter(begin_year < 2019 & end_year > 2023)
+building_series <- read_tsv("data/wp.series") %>% filter(begin_year < 2016 & end_year > 2023)
 
 # Load bls average price data file, downloaded manually
 building_prices <- read_tsv("data/wp.data.0.Current.txt")
@@ -40,7 +41,7 @@ building_prices <- building_prices %>% inner_join(building_prices_items, by = "s
 # Filter for the latest month
 building_prices <- building_prices %>% filter(period == prices$period[1])
 # Filter for only the years 2019 through 2025
-building_prices <- building_prices %>% filter(year >= 2019 & year <= 2025)
+building_prices <- building_prices %>% filter(year >= 2015 & year <= 2026)
 # Add a column using case when where if period == M01, then the new column is January and so on
 building_prices <- building_prices %>% mutate(periodName = case_when(
   period == "M01" ~ "January",
@@ -64,11 +65,16 @@ building_prices_pivot <- building_prices %>% filter(period==building_prices$peri
 
 # pivot the table items in rows the dates in columns
 building_prices_pivot2 <- building_prices %>% filter(period==building_prices$period[1]) %>% select(-period,-periodName,-series_id) %>% pivot_wider(names_from = year, values_from = value)
-# Add column for percentage increase between 2019 and 2025
-building_prices_pivot2 <- building_prices_pivot2 %>% mutate(percent_increase = ((`2025` - `2019`)/`2019`)*100)
-# Round percentage increase to 0 decimal places
-building_prices_pivot2$percent_increase <- round(building_prices_pivot2$percent_increase, 0)
-# Sort pivot2 alphabet
+# Add column for percentage increase between 2019 and 2024
+building_prices_pivot2 <- building_prices_pivot2 %>% mutate(percent_increase_2016 = ((`2025` - `2016`)/`2016`)*100)
+# Add column for percentage increase between 2019 and 2024
+building_prices_pivot2 <- building_prices_pivot2 %>% mutate(percent_increase_2020 = ((`2025` - `2020`)/`2020`)*100)
+# Add column for percentage increase between 2019 and 2024
+building_prices_pivot2 <- building_prices_pivot2 %>% mutate(percent_increase_1yr = ((`2025` - `2024`)/`2024`)*100)
+# Round percentage increase fields to 0 decimal places
+building_prices_pivot2$percent_increase_2016 <- round(building_prices_pivot2$percent_increase_2016, 0)
+building_prices_pivot2$percent_increase_2020 <- round(building_prices_pivot2$percent_increase_2020, 0)
+building_prices_pivot2$percent_increase_1yr <- round(building_prices_pivot2$percent_increase_1yr, 0)# Sort pivot2 alphabet
 building_prices_pivot2 <- building_prices_pivot2 %>% arrange(item)
 
 # export prices as csv
