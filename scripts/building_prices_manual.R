@@ -41,7 +41,7 @@ building_prices <- building_prices %>% inner_join(building_prices_items, by = "s
 # Filter for the latest month
 building_prices <- building_prices %>% filter(period == prices$period[1])
 # Filter for only the years 2019 through 2025
-building_prices <- building_prices %>% filter(year >= 2015 & year <= 2026)
+building_prices <- building_prices %>% filter(year >= 2016 & year <= 2025)
 # Add a column using case when where if period == M01, then the new column is January and so on
 building_prices <- building_prices %>% mutate(periodName = case_when(
   period == "M01" ~ "January",

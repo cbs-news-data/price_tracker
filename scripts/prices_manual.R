@@ -33,6 +33,9 @@ prices_items <- tibble(series_id = series_ids, item = item_names)
 # Set the second column item names to upper case
 prices_items$item <- toupper(prices_items$item)
 
+# temp egg prices in northeast
+eggprices <- prices %>% filter(series_id == "APU0100708111")
+
 # Merge the prices_items table with the prices table, keeping records from prices only if they match the series_id column
 prices <- prices %>% inner_join(prices_items, by = "series_id") %>% select(-5)
 # Filter for the latest month
