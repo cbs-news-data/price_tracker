@@ -48,11 +48,11 @@ homes_metro_5yrs <- homes_metro_5yrs %>%
 
 # In metro data, add a percentage change from column named 2023 to 2024
 homes_metro_5yrs <- homes_metro_5yrs %>%
-  mutate(change1yr = ((`2024` - `2023`) / `2023`) * 100)
+  mutate(change1yr = ((`2025` - `2024`) / `2024`) * 100)
 homes_metro_5yrs$change1yr <- round(homes_metro_5yrs$change1yr,0)
 # Repeat for change from 2020 to 2024
 homes_metro_5yrs <- homes_metro_5yrs %>%
-  mutate(change5yr = ((`2024` - `2019`) / `2019`) * 100)
+  mutate(change5yr = ((`2025` - `2020`) / `2020`) * 100)
 homes_metro_5yrs$change5yr <- round(homes_metro_5yrs$change5yr,0)
 
 # Repeat for other geographies county, city and zip
@@ -107,7 +107,7 @@ homes_metro_5yrs <- homes_metro_5yrs %>%
 #  left_join(states %>% select(2:3), by = c("StateName" = "state.abb"))
 
 # Reduce to the Top 200 metros using head
-homes_metro_5yrs <- homes_metro_5yrs %>% select(1,3,8,10) %>% filter(!is.na(`2019`)) %>% head(200)
+homes_metro_5yrs <- homes_metro_5yrs %>% select(1,3,8,10) %>% filter(!is.na(`2020`)) %>% head(200)
 # Repeat for Top 200 cities using head
 #homes_city_5yrs <- homes_city_5yrs %>%
 #  head(200)
@@ -127,7 +127,7 @@ write_csv(homes_metro_5yrs, "data/homes_metro_5yrs.csv")
 homes_date <- format(as.Date(latest_month_homes), "%B %d")
 
 # Create the description string
-description <- paste("The cost of the typical home in the largest 200 metro areas, according to Zillow estimates and data through ", homes_date, " compared to the same month in 2019.",sep="")
+description <- paste("The cost of the typical home in the largest 200 metro areas, according to Zillow estimates and data through ", homes_date, " compared to the same month in 2020.",sep="")
 
 # Create a list to represent the JSON structure
 json_data <- list(

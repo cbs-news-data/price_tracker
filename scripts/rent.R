@@ -5,11 +5,11 @@ library(jsonlite)
 # Import zillow rent data
 rent_metro <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/Metro_zori_uc_sfrcondomfr_sm_month.csv")
 # Repeat with counties
-rent_county <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/County_zori_uc_sfrcondomfr_sm_month.csv")
+#rent_county <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/County_zori_uc_sfrcondomfr_sm_month.csv")
 # Repeat with zip codes
-rent_zip <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/Zip_zori_uc_sfrcondomfr_sm_month.csv")
+#rent_zip <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/Zip_zori_uc_sfrcondomfr_sm_month.csv")
 # Repeat with cities
-rent_city <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/City_zori_uc_sfrcondomfr_sm_month.csv")
+#rent_city <- read_csv("https://files.zillowstatic.com/research/public_csvs/zori/City_zori_uc_sfrcondomfr_sm_month.csv")
 
 # Capture and save date of update for homes
 latest_month_rents <- names(rent_metro)[ncol(rent_metro)]
@@ -49,34 +49,34 @@ rent_city_5yrs <- rent_city_5yrs %>%
 
 # In metro data, add a percentage change from column named 2023 to 2024
 rent_metro_5yrs <- rent_metro_5yrs %>%
-  mutate(change1yr = ((`2024` - `2023`) / `2023`) * 100)
+  mutate(change1yr = ((`2025` - `2024`) / `2024`) * 100)
 rent_metro_5yrs$change1yr <- round(rent_metro_5yrs$change1yr,0)
 # Repeat for change from 2020 to 2024
 rent_metro_5yrs <- rent_metro_5yrs %>%
-  mutate(change5yr = ((`2024` - `2019`) / `2019`) * 100)
+  mutate(change5yr = ((`2025` - `2020`) / `2020`) * 100)
 rent_metro_5yrs$change5yr <- round(rent_metro_5yrs$change5yr,0)
 
 # Repeat for other geographies county, city and zip
-rent_county_5yrs <- rent_county_5yrs %>%
-  mutate(change1yr = ((`2024` - `2023`) / `2023`) * 100)
-rent_county_5yrs$change1yr <- round(rent_county_5yrs$change1yr,0)
-rent_county_5yrs <- rent_county_5yrs %>%
-  mutate(change5yr = ((`2024` - `2019`) / `2019`) * 100)
-rent_county_5yrs$change5yr <- round(rent_county_5yrs$change5yr,0)
+#rent_county_5yrs <- rent_county_5yrs %>%
+#  mutate(change1yr = ((`2024` - `2023`) / `2023`) * 100)
+#rent_county_5yrs$change1yr <- round(rent_county_5yrs$change1yr,0)
+#rent_county_5yrs <- rent_county_5yrs %>%
+#  mutate(change5yr = ((`2024` - `2019`) / `2019`) * 100)
+#rent_county_5yrs$change5yr <- round(rent_county_5yrs$change5yr,0)
 
-rent_zip_5yrs <- rent_zip_5yrs %>%
-  mutate(change1yr = ((`2024` - `2023`) / `2023`) * 100)
-rent_zip_5yrs$change1yr <- round(rent_zip_5yrs$change1yr,0)
-rent_zip_5yrs <- rent_zip_5yrs %>%
-  mutate(change5yr = ((`2024` - `2019`) / `2019`) * 100)
-rent_zip_5yrs$change5yr <- round(rent_zip_5yrs$change5yr,0)
+#rent_zip_5yrs <- rent_zip_5yrs %>%
+#  mutate(change1yr = ((`2024` - `2023`) / `2023`) * 100)
+#rent_zip_5yrs$change1yr <- round(rent_zip_5yrs$change1yr,0)
+#rent_zip_5yrs <- rent_zip_5yrs %>%
+#  mutate(change5yr = ((`2024` - `2019`) / `2019`) * 100)
+#rent_zip_5yrs$change5yr <- round(rent_zip_5yrs$change5yr,0)
 
-rent_city_5yrs <- rent_city_5yrs %>%
-  mutate(change1yr = ((`2024` - `2023`) / `2023`) * 100)
-rent_city_5yrs$change1yr <- round(rent_city_5yrs$change1yr,0)
-rent_city_5yrs <- rent_city_5yrs %>%
-  mutate(change5yr = ((`2024` - `2019`) / `2019`) * 100)
-rent_city_5yrs$change5yr <- round(rent_city_5yrs$change5yr,0)
+#rent_city_5yrs <- rent_city_5yrs %>%
+#  mutate(change1yr = ((`2025` - `2024`) / `2024`) * 100)
+#rent_city_5yrs$change1yr <- round(rent_city_5yrs$change1yr,0)
+#rent_city_5yrs <- rent_city_5yrs %>%
+#  mutate(change5yr = ((`2025` - `2020`) / `2020`) * 100)
+#rent_city_5yrs$change5yr <- round(rent_city_5yrs$change5yr,0)
 
 
 # create a table with the first column being values from state.name and the second being the state.abbr
@@ -125,7 +125,7 @@ write_csv(rent_city_5yrs, "data/rent_city_5yrs.csv")
 rent_date <- format(as.Date(latest_month_rents), "%B %d")
 
 # Create the description string
-description <- paste("The median rent in the largest 200 metro areas, according to Zillow data through ", rent_date, " compared to the same month in 2019.",sep="")
+description <- paste("The median rent in the largest 200 metro areas, according to Zillow data through ", rent_date, " compared to the same month in 2020.",sep="")
 
 # Create a list to represent the JSON structure
 json_data <- list(
