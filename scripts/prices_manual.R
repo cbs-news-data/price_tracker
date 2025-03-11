@@ -1,8 +1,10 @@
 library(tidyverse)
 library(dplyr)
+library(jsonlite)
+
 
 # Load bls series data from data folder
-series <- read_tsv("data/ap.series.txt") %>% filter(begin_year < 2019 & end_year > 2023) %>% filter(area_code == "0000" )
+series <- read_tsv("data/ap.series.txt") %>% filter(begin_year < 2020 & end_year > 2023) %>% filter(area_code == "0000" )
 
 # Load bls average price data file, downloaded manually
 prices <- read_tsv("data/ap.data.0.Current.txt")
@@ -34,7 +36,7 @@ prices_items <- tibble(series_id = series_ids, item = item_names)
 prices_items$item <- toupper(prices_items$item)
 
 # temp egg prices in northeast
-eggprices <- prices %>% filter(series_id == "APU0100708111")
+#eggprices <- prices %>% filter(series_id == "APU0100708111")
 
 # Merge the prices_items table with the prices table, keeping records from prices only if they match the series_id column
 prices <- prices %>% inner_join(prices_items, by = "series_id") %>% select(-5)
