@@ -61,14 +61,15 @@ for (i in 1:nrow(ids_names)) {
 
 monthly_prices_select_groceries <- monthly_prices %>% 
   pivot_wider(names_from = item, values_from = price) %>% 
-  select(date, `Milk (half gallon)`, `Dozen eggs`, `Cheddar Cheese`, `Butter`, `Coffee`, `Ground Beef`, `Chicken Breast`, `Steak`, `White Bread`, `Flour`)
+  rename_with(toupper) %>% 
+  select(DATE, FLOUR,	RICE,	`SPAGHETTI AND MACARONI`,	`WHITE BREAD`,	`WHEAT BREAD`,	`COOKIES`,	`GROUND BEEF`,	`ROUND ROAST`,	`BEEF FOR STEW`,	STEAK,	BACON,	`BONELESS HAM`,	`DOZEN EGGS`,	`MILK (HALF GALLON)`,	`PROCESSED AMERICAN CHEESE`,	`CHEDDAR CHEESE`,	`ICE CREAM (HALF GALLON)`,	BANANAS,	ORANGES,	GRAPEFRUIT,	LEMONS,	`STRAWBERRIES (PINT)`,	POTATOES,	LETTUCE,	TOMATOES,	`FROZEN ORANGE JUICE`,	`CANNED CORN`,	`DRIED BEANS`,	SUGAR,	COFFEE,	`MALT BEVERAGES`,	`TABLE WINE`,	`ELECTRICITY (KW HOUR)`,	`UTILITY GAS`,	`PORK CHOPS`,	`CHICKEN BREAST`,	`YOGURT (8 OUNCES)`,	`SOFT DRINKS (2 LITER)`,	`SOFT DRINKS (12 PACK)`,	BUTTER)
 
 write.csv(monthly_prices_select_groceries, "data/monthly_prices_select_groceries.csv", row.names = FALSE)
 
-# Push to Datawrapper
+# Push monthly prices to Datawrapper
 dw_api_key <- Sys.getenv("DW_KEY")
 
-max_date <- max(monthly_prices_select_groceries$date)
+max_date <- max(monthly_prices_select_groceries$DATE)
 max_date_pretty <- format(max_date, "%B %Y")
 
 datawrapper_auth(api_key = dw_api_key)
@@ -82,6 +83,11 @@ dw_edit_chart(
 )
 
 dw_publish_chart(chart_id = "av0vf")
+
+
+
+
+#OTHER THINGS
 
 monthly_prices_utilities <- monthly_prices %>% 
   pivot_wider(names_from = item, values_from = price) %>% 
