@@ -41,7 +41,7 @@ prices_items$item <- toupper(prices_items$item)
 # Merge the prices_items table with the prices table, keeping records from prices only if they match the series_id column
 prices <- prices %>% inner_join(prices_items, by = "series_id") %>% select(-5)
 # Filter for the latest month # manual change # need to develop way to automate
-prices <- prices %>% filter(period == "M03")
+prices <- prices %>% filter(period == "M04")
 # Filter for only the years 2019 through 2025
 prices <- prices %>% filter(year >= 2019 & year <= 2025)
 # Add a column using case when where if period == M01, then the new column is January and so on
