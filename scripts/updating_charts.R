@@ -7,7 +7,7 @@ if (api_key == "") {
   stop("Datawrapper API key not found. Please set the DATAWRAPPER_API_KEY environment variable.")
 }
 # Authenticate with Datawrapper
-datawrapper_auth(api_key)
+datawrapper_auth(api_key,overwrite=TRUE)
 
 # Publish the charts related to average item prices
 dw_publish_chart(chart_id = 'YK0KE')
